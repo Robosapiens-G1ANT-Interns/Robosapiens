@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\obj\Debug\G1ANT.Addon.Twitter.csprojAssemblyReference.cache
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\obj\Debug\G1ANT.Addon.Twitter.Properties.Resources.resources
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\obj\Debug\G1ANT.Addon.Twitter.csproj.GenerateResource.cache
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\obj\Debug\G1ANT.Addon.Twitter.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\bin\Debug\G1ANT.Addon.Twitter.dll
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\bin\Debug\G1ANT.Addon.Twitter.pdb
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\bin\Debug\NLog.dll
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\bin\Debug\SeleniumExtras.WaitHelpers.dll
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\bin\Debug\WebDriver.dll
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\bin\Debug\NLog.xml
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\bin\Debug\WebDriver.xml
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\obj\Debug\G1ANT.Addon.Twitter.csproj.CopyComplete
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\obj\Debug\G1ANT.Addon.Twitter.dll
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\obj\Debug\G1ANT.Addon.Twitter.pdb
