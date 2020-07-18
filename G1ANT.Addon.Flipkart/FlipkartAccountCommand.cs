@@ -8,7 +8,7 @@ using G1ANT.Language;
 
 namespace G1ANT.Addon.Flipkart
 {
-    [Command(Name = "flipkart.account", Tooltip = "Select account specific options in argument:\n profile, supercoinzone, flipkartplus, orders, wishlist, mychats, coupons, giftcards, notifications \n (make sure that the arguments are in lowercase) ")]
+    [Command(Name = "flipkart.account", Tooltip = "Select account specific options in argument:\n profile, supercoinzone, flipkartplus, orders, wishlist, mychats, coupons, giftcards, notifications, and logout. \n (make sure that the arguments are in lowercase) ")]
     public class FlipkartAccountCommand : Language.Command
     {
         public class Arguments : SeleniumCommandArguments
@@ -31,64 +31,48 @@ namespace G1ANT.Addon.Flipkart
         // Implement this method
         public void Execute(Arguments arguments)
         {
-            SeleniumManager.CurrentWrapper.Navigate("www.flipkart.com", arguments.Timeout.Value, arguments.NoWait.Value);
-            arguments.Search.Value = "/html/body/div/div/div[1]/div[1]/div[2]/div[3]/div/div/div/div";
-            arguments.By.Value = "xpath";
-            SeleniumManager.CurrentWrapper.Click(arguments, arguments.Timeout.Value);
+            
+            
 
             if (arguments.Option.Value == "profile")
             {
-                arguments.Search.Value = "/div/div[2]/div/ul/li[1]";
-                arguments.By.Value = "xpath";
-                SeleniumManager.CurrentWrapper.Click(arguments, arguments.Timeout.Value);
+                SeleniumManager.CurrentWrapper.Navigate("https://www.flipkart.com/account/?rd=0&link=home_account", arguments.Timeout.Value, arguments.NoWait.Value);
             }
             if (arguments.Option.Value == "supercoinzone")
             {
-                arguments.Search.Value = "/div/div[2]/div/ul/li[2]";
-                arguments.By.Value = "xpath";
-                SeleniumManager.CurrentWrapper.Click(arguments, arguments.Timeout.Value);
+                SeleniumManager.CurrentWrapper.Navigate("https://www.flipkart.com/supercoin", arguments.Timeout.Value, arguments.NoWait.Value);
             }
             if (arguments.Option.Value == "flipkartplus")
             {
-                arguments.Search.Value = "/div/div[2]/div/ul/li[3]";
-                arguments.By.Value = "xpath";
-                SeleniumManager.CurrentWrapper.Click(arguments, arguments.Timeout.Value);
+                SeleniumManager.CurrentWrapper.Navigate("https://www.flipkart.com/plus", arguments.Timeout.Value, arguments.NoWait.Value);
             }
             if (arguments.Option.Value == "orders")
             {
-                arguments.Search.Value = "/div/div[2]/div/ul/li[4]";
-                arguments.By.Value = "xpath";
-                SeleniumManager.CurrentWrapper.Click(arguments, arguments.Timeout.Value);
+                SeleniumManager.CurrentWrapper.Navigate("https://www.flipkart.com/account/orders?link=home_orders", arguments.Timeout.Value, arguments.NoWait.Value);
             }
             if (arguments.Option.Value == "wishlist")
             {
-                arguments.Search.Value = "/div/div[2]/div/ul/li[5]";
-                arguments.By.Value = "xpath";
-                SeleniumManager.CurrentWrapper.Click(arguments, arguments.Timeout.Value);
+                SeleniumManager.CurrentWrapper.Navigate("https://www.flipkart.com/wishlist?link=home_wishlist", arguments.Timeout.Value, arguments.NoWait.Value);
             }
             if (arguments.Option.Value == "mychats")
             {
-                arguments.Search.Value = "/div/div[2]/div/ul/li[6]";
-                arguments.By.Value = "xpath";
-                SeleniumManager.CurrentWrapper.Click(arguments, arguments.Timeout.Value);
+                SeleniumManager.CurrentWrapper.Navigate("https://www.flipkart.com/my-chats?link=home_chat", arguments.Timeout.Value, arguments.NoWait.Value);
             }
             if (arguments.Option.Value == "coupons")
             {
-                arguments.Search.Value = "/div/div[2]/div/ul/li[7]";
-                arguments.By.Value = "xpath";
-                SeleniumManager.CurrentWrapper.Click(arguments, arguments.Timeout.Value);
+                SeleniumManager.CurrentWrapper.Navigate("https://www.flipkart.com/account/rewards?link=home_rewards", arguments.Timeout.Value, arguments.NoWait.Value);
             }
             if (arguments.Option.Value == "giftcards")
             {
-                arguments.Search.Value = "/div/div[2]/div/ul/li[8]";
-                arguments.By.Value = "xpath";
-                SeleniumManager.CurrentWrapper.Click(arguments, arguments.Timeout.Value);
+                SeleniumManager.CurrentWrapper.Navigate("https://www.flipkart.com/account/giftcard?link=home_giftcard", arguments.Timeout.Value, arguments.NoWait.Value);
             }
             if (arguments.Option.Value == "notifications")
             {
-                arguments.Search.Value = "/div/div[2]/div/ul/li[9]";
-                arguments.By.Value = "xpath";
-                SeleniumManager.CurrentWrapper.Click(arguments, arguments.Timeout.Value);
+                SeleniumManager.CurrentWrapper.Navigate("https://www.flipkart.com/notifications?otracker=Notifications_view_all", arguments.Timeout.Value, arguments.NoWait.Value);
+            }
+            if (arguments.Option.Value == "logout")
+            {
+                SeleniumManager.CurrentWrapper.Navigate("https://www.flipkart.com/account/?rd=0&link=home_account#", arguments.Timeout.Value, arguments.NoWait.Value);
             }
 
         }
