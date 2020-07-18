@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS1503: Argument 2: cannot convert from 'G1ANT.Addon.Flipkart.ProductSearchCommand.Arguments' to 'G1ANT.Addon.Flipkart.SeleniumCommandArguments'
+dotnet_diagnostic.CS1503.severity = error
