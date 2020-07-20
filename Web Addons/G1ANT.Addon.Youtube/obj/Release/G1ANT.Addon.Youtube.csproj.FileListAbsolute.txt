@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\G1ANT.Addon.Youtube\bin\Release\G1ANT.Addon.Youtube.dll
+C:\Users\user\source\repos\G1ANT.Addon.Youtube\bin\Release\G1ANT.Addon.Youtube.pdb
+C:\Users\user\source\repos\G1ANT.Addon.Youtube\bin\Release\NLog.dll
+C:\Users\user\source\repos\G1ANT.Addon.Youtube\bin\Release\SeleniumExtras.WaitHelpers.dll
+C:\Users\user\source\repos\G1ANT.Addon.Youtube\bin\Release\WebDriver.dll
+C:\Users\user\source\repos\G1ANT.Addon.Youtube\bin\Release\NLog.xml
+C:\Users\user\source\repos\G1ANT.Addon.Youtube\bin\Release\WebDriver.xml
+C:\Users\user\source\repos\G1ANT.Addon.Youtube\obj\Release\G1ANT.Addon.Youtube.csprojAssemblyReference.cache
+C:\Users\user\source\repos\G1ANT.Addon.Youtube\obj\Release\G1ANT.Addon.Youtube.Properties.Resources.resources
+C:\Users\user\source\repos\G1ANT.Addon.Youtube\obj\Release\G1ANT.Addon.Youtube.csproj.GenerateResource.cache
+C:\Users\user\source\repos\G1ANT.Addon.Youtube\obj\Release\G1ANT.Addon.Youtube.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\G1ANT.Addon.Youtube\obj\Release\G1ANT.Addon.Youtube.csproj.CopyComplete
+C:\Users\user\source\repos\G1ANT.Addon.Youtube\obj\Release\G1ANT.Addon.Youtube.dll
+C:\Users\user\source\repos\G1ANT.Addon.Youtube\obj\Release\G1ANT.Addon.Youtube.pdb
