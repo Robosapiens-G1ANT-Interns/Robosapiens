@@ -1,0 +1,17 @@
+C:\Users\user\source\repos\G1ANT.Addon.Whatsapp\bin\Release\G1ANT.Addon.Whatsapp.dll
+C:\Users\user\source\repos\G1ANT.Addon.Whatsapp\bin\Release\G1ANT.Addon.Whatsapp.pdb
+C:\Users\user\source\repos\G1ANT.Addon.Whatsapp\bin\Release\Appium.Net.dll
+C:\Users\user\source\repos\G1ANT.Addon.Whatsapp\bin\Release\Castle.Core.dll
+C:\Users\user\source\repos\G1ANT.Addon.Whatsapp\bin\Release\NLog.dll
+C:\Users\user\source\repos\G1ANT.Addon.Whatsapp\bin\Release\SeleniumExtras.PageObjects.dll
+C:\Users\user\source\repos\G1ANT.Addon.Whatsapp\bin\Release\WebDriver.dll
+C:\Users\user\source\repos\G1ANT.Addon.Whatsapp\bin\Release\WebDriver.Support.dll
+C:\Users\user\source\repos\G1ANT.Addon.Whatsapp\bin\Release\Castle.Core.xml
+C:\Users\user\source\repos\G1ANT.Addon.Whatsapp\bin\Release\NLog.xml
+C:\Users\user\source\repos\G1ANT.Addon.Whatsapp\bin\Release\WebDriver.xml
+C:\Users\user\source\repos\G1ANT.Addon.Whatsapp\bin\Release\WebDriver.Support.xml
+C:\Users\user\source\repos\G1ANT.Addon.Whatsapp\obj\Release\G1ANT.Addon.Whatsapp.csprojAssemblyReference.cache
+C:\Users\user\source\repos\G1ANT.Addon.Whatsapp\obj\Release\G1ANT.Addon.Whatsapp.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\G1ANT.Addon.Whatsapp\obj\Release\G1ANT.Addon.Whatsapp.csproj.CopyComplete
+C:\Users\user\source\repos\G1ANT.Addon.Whatsapp\obj\Release\G1ANT.Addon.Whatsapp.dll
+C:\Users\user\source\repos\G1ANT.Addon.Whatsapp\obj\Release\G1ANT.Addon.Whatsapp.pdb
