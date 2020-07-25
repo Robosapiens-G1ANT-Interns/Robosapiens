@@ -8,7 +8,7 @@ using G1ANT.Language;
 
 namespace G1ANT.Addon.Facebook
 {
-    [Command(Name = "facebook.post", Tooltip = "posts a text on user's Facebook account.s")]
+    [Command(Name = "facebook.post", Tooltip = "...")]
     public class FacebookPostCommand : Language.Command
     {
         public class Arguments : SeleniumCommandArguments

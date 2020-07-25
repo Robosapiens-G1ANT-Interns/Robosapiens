@@ -8,8 +8,8 @@ using OpenQA.Selenium;
 
 namespace G1ANT.Addon.Facebook
 {
-    [Command(Name = "facebook.open", Tooltip = "This command opens Facebook")]
-    public class FacebookOpenCommand : Language.Command
+    [Command(Name = "facebookopen", Tooltip = "This command opens Facebook")]
+    public class FacebookopenCommand : Language.Command
     {
         public class Arguments : CommandArguments
         {
@@ -29,7 +29,7 @@ namespace G1ANT.Addon.Facebook
             public VariableStructure Result { get; set; } = new VariableStructure("result");
         }
 
-        public FacebookOpenCommand(AbstractScripter scripter) :
+        public FacebookopenCommand(AbstractScripter scripter) :
             base(scripter)
         {
         }

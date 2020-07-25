@@ -13,7 +13,7 @@ namespace G1ANT.Addon.Facebook
     {
         public class Arguments : SeleniumCommandArguments
         {
-            [Argument(Name = "tabname", Required = true, Tooltip = "Enter one of the tabs (lowercase): \nhome, watch, marketplace, groups, \ngaming, friends, messages, jobs, \nmemories, notifications")]
+            [Argument(Name = "tabname", Required = true, Tooltip = "Enter one of the tabs (lowercase): \n posts, people, photos, videos, marketplace, \n pages, places, groups, apps, events, links.")]
             public TextStructure tabname { get; set; }
 
             [Argument(Tooltip = "By default, waits until the webpage fully loads")]

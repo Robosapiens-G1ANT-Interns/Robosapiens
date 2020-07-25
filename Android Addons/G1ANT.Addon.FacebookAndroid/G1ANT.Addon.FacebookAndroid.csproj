@@ -112,6 +112,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="FBandroidCloseCommand.md" />
+    <None Include="FBWritePostCommand.md" />
+    <None Include="FBandroidTabCommand.md" />
+    <None Include="FBandroidOpenCommand.md" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -91,17 +91,13 @@
     <Compile Include="Addon.cs" />
     <Compile Include="FacebookLoginCommand.cs" />
     <Compile Include="FacebookLogoutCommand.cs" />
-    <Compile Include="FacebookOpenCommand.cs" />
+    <Compile Include="FacebookopenCommand.cs" />
     <Compile Include="FacebookPostCommand.cs" />
     <Compile Include="FacebookSearchCommand.cs" />
     <Compile Include="FacebookTabCommand.cs" />
     <Compile Include="Properties\Resources.Designer.cs" />
     <Compile Include="Variables\TimeoutSeleniumVariable.cs" />
     <EmbedResource Include="License.txt" />
-    <None Include="FacebookLogoutCommand.md" />
-    <None Include="FacebookPostCommand.md" />
-    <None Include="FacebookTabCommand.md" />
-    <None Include="FacebookLoginCommand.md" />
     <!-- REMOVE IT
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -121,7 +117,6 @@
     <Compile Include="Api\SeleniumWrapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <None Include="Variables\TimeoutSeleniumVariable.md" />
-    <None Include="FacebookOpenCommand.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\chromedriver.exe" />

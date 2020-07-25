@@ -8,7 +8,7 @@ using G1ANT.Language;
 
 namespace G1ANT.Addon.FacebookAndroid
 {
-    [Command(Name = "fbandroid.writepost", Tooltip = "Provide a stroey or message in argument to be posted.")]
+    [Command(Name = "fbandroid.writepost", Tooltip = "Provide a story or message in argument to be posted.")]
     public class FBandroidWritePostCommand : Language.Command
     {
         public class Arguments : CommandArguments
