@@ -4,7 +4,7 @@ using OpenQA.Selenium.Remote;
 
 namespace G1ANT.Addon.FacebookAndroid
 {
-    [Command(Name = "whatsapp.close", Tooltip = "This command closes appium session")]
+    [Command(Name = "whatsapp.close", Tooltip = "This command closes whatsapp application.")]
     public class CloseCommand : Language.Command
     {
         public class Arguments : CommandArguments

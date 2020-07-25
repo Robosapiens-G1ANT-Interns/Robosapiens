@@ -8,7 +8,7 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace G1ANT.Addon.Whatsapp
 {
-    [Command(Name = "whatsapp.newgroup", Tooltip = "Opens conversation mentioned in the argument and sends a message in that conversation.")]
+    [Command(Name = "whatsapp.newgroup", Tooltip = "Opens a new group tab in the whatsapp instance.")]
     public class WhatsappNewGroupCommand : Language.Command
     {
         public class Arguments : CommandArguments

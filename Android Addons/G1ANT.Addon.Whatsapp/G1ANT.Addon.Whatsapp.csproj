@@ -118,6 +118,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="WhatsappCloseCommand.md" />
+    <None Include="WhatsappNewGroupCommand.md" />
+    <None Include="WhatsappSendMessageCommand.md" />
+    <None Include="WhatsappSearchCommand.md" />
+    <None Include="WhatsappOpenCommand.md" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
