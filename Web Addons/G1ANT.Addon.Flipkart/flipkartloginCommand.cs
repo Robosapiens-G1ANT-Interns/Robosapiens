@@ -9,7 +9,7 @@ using OpenQA.Selenium;
 namespace G1ANT.Addon.Flipkart
 {
     [Command(Name = "flipkart.login", Tooltip = "Opens a specified browseer instance with logged in flipkart account.")]
-    public class flipkartloginCommand : Language.Command
+    public class FlipkartLoginCommand : Language.Command
     {
         public class Arguments : SeleniumCommandArguments
         {
@@ -38,7 +38,7 @@ namespace G1ANT.Addon.Flipkart
         }
     
 
-        public flipkartloginCommand(AbstractScripter scripter) : base(scripter)
+        public FlipkartLoginCommand(AbstractScripter scripter) : base(scripter)
         {
         }
 

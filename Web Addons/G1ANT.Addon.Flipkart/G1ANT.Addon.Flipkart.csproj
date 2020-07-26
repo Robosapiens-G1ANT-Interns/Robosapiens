@@ -107,7 +107,7 @@
   <ItemGroup>
     <Compile Include="Addon.cs" />
     <Compile Include="FlipkartAccountCommand.cs" />
-    <Compile Include="flipkartloginCommand.cs" />
+    <Compile Include="FlipkartLoginCommand.cs" />
     <Compile Include="ShowcartCommand.cs" />
     <Compile Include="ProductSearchCommand.cs" />
     <Compile Include="Properties\Resources.Designer.cs" />
@@ -132,6 +132,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include=".editorconfig" />
+    <None Include="ShowcartCommand.md" />
+    <None Include="FlipkartLoginCommand.md" />
+    <None Include="FlipkartAccountCommand.md" />
+    <None Include="ProductSearchCommand.md" />
     <None Include="packages.config" />
     <None Include="Variables\TimeoutFlipkartVariable.md" />
   </ItemGroup>
