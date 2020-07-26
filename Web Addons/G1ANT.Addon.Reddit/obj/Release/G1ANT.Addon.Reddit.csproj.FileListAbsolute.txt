@@ -1,0 +1,14 @@
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Reddit\obj\Release\G1ANT.Addon.Reddit.Properties.Resources.resources
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Reddit\obj\Release\G1ANT.Addon.Reddit.csproj.GenerateResource.cache
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Reddit\obj\Release\G1ANT.Addon.Reddit.csproj.CoreCompileInputs.cache
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Reddit\bin\Release\G1ANT.Addon.Reddit.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Reddit\bin\Release\G1ANT.Addon.Reddit.pdb
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Reddit\bin\Release\NLog.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Reddit\bin\Release\SeleniumExtras.WaitHelpers.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Reddit\bin\Release\WebDriver.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Reddit\bin\Release\NLog.xml
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Reddit\bin\Release\WebDriver.xml
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Reddit\obj\Release\G1ANT.Addon.Reddit.csproj.CopyComplete
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Reddit\obj\Release\G1ANT.Addon.Reddit.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Reddit\obj\Release\G1ANT.Addon.Reddit.pdb
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Reddit\obj\Release\G1ANT.Addon.Reddit.csprojAssemblyReference.cache
