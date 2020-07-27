@@ -33,6 +33,7 @@ namespace G1ANT.Addon.Youtube
         public YoutubeTabCommand(AbstractScripter scripter) :
             base(scripter)
         {
+
         }
 
         // Implement this method

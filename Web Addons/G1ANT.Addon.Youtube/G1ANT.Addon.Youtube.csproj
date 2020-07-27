@@ -114,6 +114,10 @@
     -->
   </ItemGroup>
   <ItemGroup>
+    <None Include="YoutubeTabCommand.md" />
+    <None Include="YoutubeSearchCommand.md" />
+    <None Include="YoutubeOpenCommand.md" />
+    <None Include="BestofYoutubeCommand.md" />
     <None Include="packages.config" />
     <None Include="Variables\TimeoutSeleniumVariable.md" />
   </ItemGroup>
