@@ -1,4 +1,4 @@
-# instagram.open
+# instagram.search
 
 ## Syntax
 
