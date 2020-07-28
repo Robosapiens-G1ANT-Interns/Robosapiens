@@ -1,4 +1,4 @@
-# instagram.open
+# instagram.login
 
 ## Syntax
 
