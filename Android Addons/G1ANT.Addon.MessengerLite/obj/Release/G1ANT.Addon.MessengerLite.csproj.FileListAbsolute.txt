@@ -1,0 +1,17 @@
+C:\Users\user\source\repos\G1ANT.Addon.Messenger\bin\Release\G1ANT.Addon.Messenger.dll
+C:\Users\user\source\repos\G1ANT.Addon.Messenger\bin\Release\G1ANT.Addon.Messenger.pdb
+C:\Users\user\source\repos\G1ANT.Addon.Messenger\bin\Release\Appium.Net.dll
+C:\Users\user\source\repos\G1ANT.Addon.Messenger\bin\Release\Castle.Core.dll
+C:\Users\user\source\repos\G1ANT.Addon.Messenger\bin\Release\NLog.dll
+C:\Users\user\source\repos\G1ANT.Addon.Messenger\bin\Release\SeleniumExtras.PageObjects.dll
+C:\Users\user\source\repos\G1ANT.Addon.Messenger\bin\Release\WebDriver.dll
+C:\Users\user\source\repos\G1ANT.Addon.Messenger\bin\Release\WebDriver.Support.dll
+C:\Users\user\source\repos\G1ANT.Addon.Messenger\bin\Release\Castle.Core.xml
+C:\Users\user\source\repos\G1ANT.Addon.Messenger\bin\Release\NLog.xml
+C:\Users\user\source\repos\G1ANT.Addon.Messenger\bin\Release\WebDriver.xml
+C:\Users\user\source\repos\G1ANT.Addon.Messenger\bin\Release\WebDriver.Support.xml
+C:\Users\user\source\repos\G1ANT.Addon.Messenger\obj\Release\G1ANT.Addon.MessengerLite.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\G1ANT.Addon.Messenger\obj\Release\G1ANT.Addon.MessengerLite.csproj.CopyComplete
+C:\Users\user\source\repos\G1ANT.Addon.Messenger\obj\Release\G1ANT.Addon.Messenger.dll
+C:\Users\user\source\repos\G1ANT.Addon.Messenger\obj\Release\G1ANT.Addon.Messenger.pdb
+C:\Users\user\source\repos\G1ANT.Addon.Messenger\obj\Release\G1ANT.Addon.MessengerLite.csprojAssemblyReference.cache
