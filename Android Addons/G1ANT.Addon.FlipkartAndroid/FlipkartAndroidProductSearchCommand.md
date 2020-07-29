@@ -1,20 +1,19 @@
-# instagram.open
+﻿# flipkartandroid.showcart
 
 ## Syntax
 
 ```G1ANT
-instagram.Search
+flipkartandroid.showcart
 ```
 
 ## Description
 
-This command search keywords in your search box of instagram.
+This command navigates to cart in the flipkart application.
 
-| Argument | Type | Required | Default Value | Description |
-| -------- | ---- | -------- | ------------- | ----------- |
-|'Keyword'| [text]     |yes     |                                                                        |Enter the search keyword.        |
+| Argument         | Type       | Required | Default Value                                               | Description |
+| ---------------- | ---------- | -------- | ----------------------------------------------------------- | ----------- |
 | `if`             | [bool]     | no       | true                                                        | Executes the command only if a specified condition is true   |
-| `timeout`        | [timespan  | no       | [♥timeoutcommand]| Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed |
+| `timeout`        | [timespan  | no       | [♥timeoutcommand]                                           | Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed |
 | `errorcall`      | [procedure]| no       |                                                             | Name of a procedure to call when the command throws an exception or when a given `timeout` expires |
 | `errorjump`      | [label]    | no       |                                                             | Name of the label to jump to when the command throws an exception or when a given `timeout` expires |
 | `errormessage`   | [text]     | no       |                                                             | A message that will be shown in case the command throws an exception or when a given `timeout` expires, and no `errorjump` argument is specified |
@@ -24,10 +23,10 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script find keywords as you type in the search box in the connected android device :
+This simple script opens a flipkart application and then navigates to the cart.
 
 ```G1ANT
-instagram.open
-instagram.Search keywords <keywords> 
+flipkartandroid.open 
+flipkartandroid.showcart
 
 ```
