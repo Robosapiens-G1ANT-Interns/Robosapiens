@@ -1,0 +1,17 @@
+C:\Users\user\source\repos\G1ANT.Addon.FlipkartAndroid\bin\Debug\G1ANT.Addon.FlipkartAndroid.dll
+C:\Users\user\source\repos\G1ANT.Addon.FlipkartAndroid\bin\Debug\G1ANT.Addon.FlipkartAndroid.pdb
+C:\Users\user\source\repos\G1ANT.Addon.FlipkartAndroid\bin\Debug\Appium.Net.dll
+C:\Users\user\source\repos\G1ANT.Addon.FlipkartAndroid\bin\Debug\Castle.Core.dll
+C:\Users\user\source\repos\G1ANT.Addon.FlipkartAndroid\bin\Debug\NLog.dll
+C:\Users\user\source\repos\G1ANT.Addon.FlipkartAndroid\bin\Debug\SeleniumExtras.PageObjects.dll
+C:\Users\user\source\repos\G1ANT.Addon.FlipkartAndroid\bin\Debug\WebDriver.dll
+C:\Users\user\source\repos\G1ANT.Addon.FlipkartAndroid\bin\Debug\WebDriver.Support.dll
+C:\Users\user\source\repos\G1ANT.Addon.FlipkartAndroid\bin\Debug\Castle.Core.xml
+C:\Users\user\source\repos\G1ANT.Addon.FlipkartAndroid\bin\Debug\NLog.xml
+C:\Users\user\source\repos\G1ANT.Addon.FlipkartAndroid\bin\Debug\WebDriver.xml
+C:\Users\user\source\repos\G1ANT.Addon.FlipkartAndroid\bin\Debug\WebDriver.Support.xml
+C:\Users\user\source\repos\G1ANT.Addon.FlipkartAndroid\obj\Debug\G1ANT.Addon.FlipkartAndroid.csprojAssemblyReference.cache
+C:\Users\user\source\repos\G1ANT.Addon.FlipkartAndroid\obj\Debug\G1ANT.Addon.FlipkartAndroid.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\G1ANT.Addon.FlipkartAndroid\obj\Debug\G1ANT.Addon.FlipkartAndroid.csproj.CopyComplete
+C:\Users\user\source\repos\G1ANT.Addon.FlipkartAndroid\obj\Debug\G1ANT.Addon.FlipkartAndroid.dll
+C:\Users\user\source\repos\G1ANT.Addon.FlipkartAndroid\obj\Debug\G1ANT.Addon.FlipkartAndroid.pdb
