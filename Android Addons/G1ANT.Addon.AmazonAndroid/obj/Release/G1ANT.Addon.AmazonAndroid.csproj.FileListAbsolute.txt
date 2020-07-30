@@ -1,0 +1,17 @@
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\bin\Release\G1ANT.Addon.AmazonAndroid.dll
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\bin\Release\G1ANT.Addon.AmazonAndroid.pdb
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\bin\Release\Appium.Net.dll
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\bin\Release\Castle.Core.dll
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\bin\Release\NLog.dll
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\bin\Release\SeleniumExtras.PageObjects.dll
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\bin\Release\WebDriver.dll
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\bin\Release\WebDriver.Support.dll
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\bin\Release\Castle.Core.xml
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\bin\Release\NLog.xml
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\bin\Release\WebDriver.xml
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\bin\Release\WebDriver.Support.xml
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\obj\Release\G1ANT.Addon.AmazonAndroid.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\obj\Release\G1ANT.Addon.AmazonAndroid.csproj.CopyComplete
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\obj\Release\G1ANT.Addon.AmazonAndroid.dll
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\obj\Release\G1ANT.Addon.AmazonAndroid.pdb
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\obj\Release\G1ANT.Addon.AmazonAndroid.csprojAssemblyReference.cache

@@ -1,0 +1,17 @@
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\bin\Debug\G1ANT.Addon.AmazonAndroid.dll
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\bin\Debug\G1ANT.Addon.AmazonAndroid.pdb
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\bin\Debug\Appium.Net.dll
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\bin\Debug\Castle.Core.dll
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\bin\Debug\NLog.dll
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\bin\Debug\SeleniumExtras.PageObjects.dll
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\bin\Debug\WebDriver.dll
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\bin\Debug\WebDriver.Support.dll
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\bin\Debug\Castle.Core.xml
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\bin\Debug\NLog.xml
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\bin\Debug\WebDriver.xml
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\bin\Debug\WebDriver.Support.xml
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\obj\Debug\G1ANT.Addon.AmazonAndroid.csprojAssemblyReference.cache
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\obj\Debug\G1ANT.Addon.AmazonAndroid.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\obj\Debug\G1ANT.Addon.AmazonAndroid.csproj.CopyComplete
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\obj\Debug\G1ANT.Addon.AmazonAndroid.dll
+C:\Users\user\source\repos\G1ANT.Addon.AmazonAndroid\obj\Debug\G1ANT.Addon.AmazonAndroid.pdb
