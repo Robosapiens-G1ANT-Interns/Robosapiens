@@ -122,6 +122,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="TwitterTweetCommand.md" />
+    <None Include="TwitterTabCommand.md" />
+    <None Include="TwitterSearchCommand.md" />
+    <None Include="TwitterLoginCommand.md" />
     <None Include="Variables\TimeoutSeleniumVariable.md" />
   </ItemGroup>
   <ItemGroup>

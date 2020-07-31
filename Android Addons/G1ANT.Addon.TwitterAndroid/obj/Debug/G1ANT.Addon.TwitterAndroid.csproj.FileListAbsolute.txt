@@ -1,0 +1,17 @@
+C:\Users\user\source\repos\G1ANT.Addon.TwitterAndroid\bin\Debug\G1ANT.Addon.TwitterAndroid.dll
+C:\Users\user\source\repos\G1ANT.Addon.TwitterAndroid\bin\Debug\G1ANT.Addon.TwitterAndroid.pdb
+C:\Users\user\source\repos\G1ANT.Addon.TwitterAndroid\bin\Debug\Appium.Net.dll
+C:\Users\user\source\repos\G1ANT.Addon.TwitterAndroid\bin\Debug\Castle.Core.dll
+C:\Users\user\source\repos\G1ANT.Addon.TwitterAndroid\bin\Debug\NLog.dll
+C:\Users\user\source\repos\G1ANT.Addon.TwitterAndroid\bin\Debug\SeleniumExtras.PageObjects.dll
+C:\Users\user\source\repos\G1ANT.Addon.TwitterAndroid\bin\Debug\WebDriver.dll
+C:\Users\user\source\repos\G1ANT.Addon.TwitterAndroid\bin\Debug\WebDriver.Support.dll
+C:\Users\user\source\repos\G1ANT.Addon.TwitterAndroid\bin\Debug\Castle.Core.xml
+C:\Users\user\source\repos\G1ANT.Addon.TwitterAndroid\bin\Debug\NLog.xml
+C:\Users\user\source\repos\G1ANT.Addon.TwitterAndroid\bin\Debug\WebDriver.xml
+C:\Users\user\source\repos\G1ANT.Addon.TwitterAndroid\bin\Debug\WebDriver.Support.xml
+C:\Users\user\source\repos\G1ANT.Addon.TwitterAndroid\obj\Debug\G1ANT.Addon.TwitterAndroid.csprojAssemblyReference.cache
+C:\Users\user\source\repos\G1ANT.Addon.TwitterAndroid\obj\Debug\G1ANT.Addon.TwitterAndroid.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\G1ANT.Addon.TwitterAndroid\obj\Debug\G1ANT.Addon.TwitterAndroid.csproj.CopyComplete
+C:\Users\user\source\repos\G1ANT.Addon.TwitterAndroid\obj\Debug\G1ANT.Addon.TwitterAndroid.dll
+C:\Users\user\source\repos\G1ANT.Addon.TwitterAndroid\obj\Debug\G1ANT.Addon.TwitterAndroid.pdb

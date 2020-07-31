@@ -8,12 +8,12 @@ using G1ANT.Language;
 
 namespace G1ANT.Addon.Twitter
 {
-    [Command(Name = "twitter.tweet", Tooltip = "Enter a tab button to click: home, explore, notifications, messages, bookmarks, lists, profile, and more.")]
+    [Command(Name = "twitter.tweet", Tooltip = "Tweet a message on twitter.")]
     public class TwitterTweetCommand : Language.Command
     {
         public class Arguments : SeleniumCommandArguments
         {
-            [Argument(Name = "message", Required = true, Tooltip = "Enter the keyword that you want to search in twitter")]
+            [Argument(Name = "message", Required = true, Tooltip = "Enter the message that you want to tweet in twitter.")]
             public TextStructure message { get; set; }
 
             [Argument(Tooltip = "If set to `true`, the command should wait for a new window to appear after clicking the specified element")]

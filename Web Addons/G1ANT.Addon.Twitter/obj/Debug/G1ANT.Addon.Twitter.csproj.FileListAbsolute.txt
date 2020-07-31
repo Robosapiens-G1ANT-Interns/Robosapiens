@@ -12,3 +12,17 @@ C:\Users\user\source\repos\G1ANT.Addon.Twitter\bin\Debug\WebDriver.xml
 C:\Users\user\source\repos\G1ANT.Addon.Twitter\obj\Debug\G1ANT.Addon.Twitter.csproj.CopyComplete
 C:\Users\user\source\repos\G1ANT.Addon.Twitter\obj\Debug\G1ANT.Addon.Twitter.dll
 C:\Users\user\source\repos\G1ANT.Addon.Twitter\obj\Debug\G1ANT.Addon.Twitter.pdb
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\bin\Debug\G1ANT.Language.dll
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\bin\Debug\HtmlAgilityPack.dll
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\bin\Debug\MailKit.dll
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\bin\Debug\MimeKit.dll
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\bin\Debug\HtmlAgilityPack.xml
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\bin\Debug\MailKit.pdb
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\bin\Debug\MailKit.xml
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\bin\Debug\MimeKit.pdb
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\bin\Debug\MimeKit.xml
+C:\Users\user\source\repos\G1ANT.Addon.Twitter\bin\Debug\Newtonsoft.Json.xml

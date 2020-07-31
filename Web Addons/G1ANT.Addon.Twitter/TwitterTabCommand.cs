@@ -13,7 +13,7 @@ namespace G1ANT.Addon.Twitter
     {
         public class Arguments : SeleniumCommandArguments
         {
-            [Argument(Name = "button", Required = true, Tooltip = "Enter the keyword that you want to search in twitter")]
+            [Argument(Name = "button", Required = true, Tooltip = "Tab button")]
             public TextStructure button { get; set; }
 
             [Argument(Tooltip = "If set to `true`, the command should wait for a new window to appear after clicking the specified element")]
