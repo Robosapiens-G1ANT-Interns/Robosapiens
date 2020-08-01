@@ -1,0 +1,17 @@
+C:\Users\user\source\repos\G1ANT.Addon.InstagramAndroid\bin\Release\G1ANT.Addon.InstagramAndroid.dll
+C:\Users\user\source\repos\G1ANT.Addon.InstagramAndroid\bin\Release\G1ANT.Addon.InstagramAndroid.pdb
+C:\Users\user\source\repos\G1ANT.Addon.InstagramAndroid\bin\Release\Appium.Net.dll
+C:\Users\user\source\repos\G1ANT.Addon.InstagramAndroid\bin\Release\Castle.Core.dll
+C:\Users\user\source\repos\G1ANT.Addon.InstagramAndroid\bin\Release\NLog.dll
+C:\Users\user\source\repos\G1ANT.Addon.InstagramAndroid\bin\Release\SeleniumExtras.PageObjects.dll
+C:\Users\user\source\repos\G1ANT.Addon.InstagramAndroid\bin\Release\WebDriver.dll
+C:\Users\user\source\repos\G1ANT.Addon.InstagramAndroid\bin\Release\WebDriver.Support.dll
+C:\Users\user\source\repos\G1ANT.Addon.InstagramAndroid\bin\Release\Castle.Core.xml
+C:\Users\user\source\repos\G1ANT.Addon.InstagramAndroid\bin\Release\NLog.xml
+C:\Users\user\source\repos\G1ANT.Addon.InstagramAndroid\bin\Release\WebDriver.xml
+C:\Users\user\source\repos\G1ANT.Addon.InstagramAndroid\bin\Release\WebDriver.Support.xml
+C:\Users\user\source\repos\G1ANT.Addon.InstagramAndroid\obj\Release\G1ANT.Addon.InstagramAndroid.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\G1ANT.Addon.InstagramAndroid\obj\Release\G1ANT.Addon.InstagramAndroid.csproj.CopyComplete
+C:\Users\user\source\repos\G1ANT.Addon.InstagramAndroid\obj\Release\G1ANT.Addon.InstagramAndroid.dll
+C:\Users\user\source\repos\G1ANT.Addon.InstagramAndroid\obj\Release\G1ANT.Addon.InstagramAndroid.pdb
+C:\Users\user\source\repos\G1ANT.Addon.InstagramAndroid\obj\Release\G1ANT.Addon.InstagramAndroid.csprojAssemblyReference.cache
