@@ -1,9 +1,9 @@
-﻿# instagramandroid.search
+﻿# instagramandroid.searchandexplore
 
 ## Syntax
 
 ```G1ANT
-instagramandroid.search keyword [text] filter [text]
+instagramandroid.searchandexplore keyword [text] filter [text]
 ```
 
 ## Description
@@ -29,6 +29,6 @@ This simple script opens an Instagram application instance in the connected andr
 
 ```G1ANT
 instagramandroid.open
-instagramandroid.search keyword Tennessee filter places
+instagramandroid.searchandexplore keyword Tennessee filter places
 
 ```
