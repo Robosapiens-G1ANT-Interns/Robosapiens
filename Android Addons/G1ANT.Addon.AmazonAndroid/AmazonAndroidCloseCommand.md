@@ -23,9 +23,11 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens a amazon application, waits for 5 seconds and then closes it.
+This simple script opens a amazon application, goes to the cart, waits for 5 seconds and then closes it.
 
 ```G1ANT
 amazonandroid.open
+amazonandroid.showcart
+delay 5
 amazonandroid.close
 ```

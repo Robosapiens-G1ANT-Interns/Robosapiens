@@ -28,6 +28,7 @@ This simple script opens a Whatsapp conversation in the connected android device
 
 ```G1ANT
 whatsapp.open
-whatsapp.openconversation <enter conversation name here>
+delay 3
+whatsapp.openconversation <enter_conversation_name_here>
 
 ```

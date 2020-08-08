@@ -28,6 +28,9 @@ This simple script opens a twitter application in the connected android device a
 
 ```G1ANT
 twitterandroid.open
+delay 3
 twitterandroid.tab Option moments
+delay 4
+twitterandroid.tab Option bookmarks
 
 ```

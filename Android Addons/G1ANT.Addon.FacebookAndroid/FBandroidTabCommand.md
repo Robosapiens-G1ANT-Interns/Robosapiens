@@ -24,10 +24,12 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens a facebook application and then logs into the account with provided credentials. It will then open the mentioned tab.
+This simple script opens a facebook application and then logs into the account with provided credentials. It will then open the gaming tab, wait for 5 seconds and then open the profile tab.
 
 ```G1ANT
 fbandroid.open Email <enter_your_login ID> Password <enter_the_password_here>
 fbandroid.tab gaming
+delay 5
+fbandroid.tab profile
 
 ```

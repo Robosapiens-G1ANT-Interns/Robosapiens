@@ -29,5 +29,7 @@ This simple script opens a messenger app in the connected android device and sen
 
 ```G1ANT
 messengerlite.open
+delay 3
 messengerlite.sendmessage ConversationName <enter_contact_name_here> Message <enter_message_here>
+delay 4
 ```

@@ -27,6 +27,7 @@ This simple script opens a Whatsapp instance and navigates to the New Group tab 
 
 ```G1ANT
 whatsapp.open
+delay 3
 whatsapp.newgroup 
 
 ```

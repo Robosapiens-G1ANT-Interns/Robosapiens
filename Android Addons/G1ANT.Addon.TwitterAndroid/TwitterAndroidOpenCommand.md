@@ -23,9 +23,11 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens a twitter application in the connected android device.
+This simple script opens a twitter application in the connected android device, waits for 5 seconds, and then closes the application.
 
 ```G1ANT
 twitterandroid.open
+delay 5
+twitterandroid.close
 
 ```

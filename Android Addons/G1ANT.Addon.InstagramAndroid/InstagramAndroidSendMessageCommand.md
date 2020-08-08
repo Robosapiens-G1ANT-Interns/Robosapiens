@@ -29,6 +29,8 @@ This simple script opens an Instagram application instance in the connected andr
 
 ```G1ANT
 instagramandroid.open
+delay 3
 instagramandroid.sendmessage ContactName <enter_the_contact_name> Message <message_text>
+delay 4
 
 ```

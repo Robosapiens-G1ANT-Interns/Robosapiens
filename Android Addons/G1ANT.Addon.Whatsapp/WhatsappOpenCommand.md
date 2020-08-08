@@ -23,8 +23,10 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens a Whatsapp app in the connected android device:
+This simple script opens a Whatsapp app in the connected android device, waits for 5 seconds and then closes it.
 
 ```G1ANT
 whatsapp.open
+delay 5
+whatsapp.close
 ```

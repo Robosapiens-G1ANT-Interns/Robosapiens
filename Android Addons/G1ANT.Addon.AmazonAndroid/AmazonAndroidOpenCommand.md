@@ -23,9 +23,11 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens a amazon application.
+This simple script opens a amazon application and searches for the galaxytab product.
 
 ```G1ANT
 amazonandroid.open
+amazonandroid.productsearch galaxytab
+
 
 ```

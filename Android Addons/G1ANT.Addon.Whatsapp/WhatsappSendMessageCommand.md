@@ -29,6 +29,7 @@ This simple script opens a Whatsapp conversation in the connected android device
 
 ```G1ANT
 whatsapp.open
+delay 3
 whatsapp.sendmessage ConversationName <conversation_name> Message <message_text> 
 
 ```

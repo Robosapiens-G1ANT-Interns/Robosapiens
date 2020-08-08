@@ -24,9 +24,11 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens a amazon application and navigates to the prime tab in the application.
+This simple script opens a amazon application and navigates to the prime tab in the application, waits for 5 seconds and then opens the YourOrders Tab.
 
 ```G1ANT
 amazonandroid.open
 amazonandroid.tab option prime
+delay 5
+amazonandroid.tab option yourorders
 ```

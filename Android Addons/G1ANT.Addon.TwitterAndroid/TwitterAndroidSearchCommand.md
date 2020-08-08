@@ -29,6 +29,7 @@ This simple script opens a twitter application in the connected android device a
 
 ```G1ANT
 twitterandroid.open
+delay 3
 twitterandroid.search keyword TaylorSwift filter people
 
 ```

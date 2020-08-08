@@ -23,10 +23,12 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens an Instagram application instance in the connected android device, waits for 5 secs and then closes the application.
+This simple script opens an Instagram application instance in the connected android device, waits for 5 secs, opens the activity tab, and then closes the application.
 
 ```G1ANT
 instagramandroid.open
 delay 5
+instagramandroid.activity
+delay 3
 instagramandroid.close
 ```

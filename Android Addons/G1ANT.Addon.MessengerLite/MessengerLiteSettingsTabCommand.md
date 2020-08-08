@@ -24,9 +24,13 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens a messenger app in the connected android device and accesses the account settings tab in the application.
+This simple script opens a messenger app in the connected android device and accesses the account settings tab in the application, waits fro 3 seconds and then opens the active status option in the tab.
 
 ```G1ANT
 messengerlite.open
+delay 5
 messengerlite.settings Option accountsettings
+delay 3
+messengerlite.settings Option activestatus
+
 ```
