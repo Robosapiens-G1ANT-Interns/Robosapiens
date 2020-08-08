@@ -1,4 +1,4 @@
-# reddit.open
+# reddit.logout
 
 ## Syntax
 

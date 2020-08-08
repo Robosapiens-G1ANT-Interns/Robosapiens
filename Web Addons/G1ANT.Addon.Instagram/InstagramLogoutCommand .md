@@ -1,4 +1,4 @@
-# instagram.open
+# instagram.logout
 
 ## Syntax
 
@@ -23,7 +23,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script log out with a instagram account in the connected android device :
+This simple script opens a instagram webpage in the provided browser instance, logs in and then after a 5 sec delay it logs out.:
 
 ```G1ANT
 instagram.open

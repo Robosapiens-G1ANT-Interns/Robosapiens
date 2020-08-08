@@ -1,4 +1,4 @@
-# instagram.open
+# instagram.login
 
 ## Syntax
 
@@ -25,8 +25,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens a instagram account in the connected android device :
-
+This simple script opens a instagram webpage in the provided browser instance and then logs into the account with provided credentials:
 ```G1ANT
 instagram.open
 instagram.login LoginId <login_id> Message <password> 

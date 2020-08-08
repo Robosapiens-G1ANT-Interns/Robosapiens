@@ -1,4 +1,4 @@
-# reddit.open
+# reddit.search
 
 ## Syntax
 
@@ -24,9 +24,10 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens a reddit webpage in the provided browser instance and then logs into the account with provided credentials:
+This simple script find keywords as you type in the search box in the webpage of reddit :
 
 ```G1ANT
 reddit.open
-reddit.login login <enter_your_loginID> pass <enter_the_password_here>
+reddit.login 
+reddit.Search keywords <keywords>
 ```

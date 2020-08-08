@@ -1,4 +1,4 @@
-# instagram.open
+# instagram.search
 
 ## Syntax
 
@@ -24,10 +24,11 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script find keywords as you type in the search box in the connected android device :
+This simple script find keywords as you type in the search box in the instagram webpage :
 
 ```G1ANT
 instagram.open
+instagram.login
 instagram.Search keywords <keywords> 
 
 ```

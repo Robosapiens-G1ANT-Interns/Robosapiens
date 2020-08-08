@@ -1,0 +1,14 @@
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Shaadi\bin\Debug\G1ANT.Addon.Shaadi.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Shaadi\bin\Debug\G1ANT.Addon.Shaadi.pdb
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Shaadi\bin\Debug\NLog.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Shaadi\bin\Debug\SeleniumExtras.WaitHelpers.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Shaadi\bin\Debug\WebDriver.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Shaadi\bin\Debug\NLog.xml
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Shaadi\bin\Debug\WebDriver.xml
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Shaadi\obj\Debug\G1ANT.Addon.Shaadi.csprojAssemblyReference.cache
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Shaadi\obj\Debug\G1ANT.Addon.Shaadi.Properties.Resources.resources
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Shaadi\obj\Debug\G1ANT.Addon.Shaadi.csproj.GenerateResource.cache
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Shaadi\obj\Debug\G1ANT.Addon.Shaadi.csproj.CoreCompileInputs.cache
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Shaadi\obj\Debug\G1ANT.Addon.Shaadi.csproj.CopyComplete
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Shaadi\obj\Debug\G1ANT.Addon.Shaadi.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Shaadi\obj\Debug\G1ANT.Addon.Shaadi.pdb

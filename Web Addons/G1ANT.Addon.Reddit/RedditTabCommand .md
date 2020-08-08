@@ -1,4 +1,4 @@
-# reddit.open
+# reddit.tab
 
 ## Syntax
 
@@ -12,7 +12,7 @@ This command  used  used to access different tabs pertaining to the user's reddi
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
-| 'tabname'|[text]|	  yes	 |                                                                           | Enter the tab that needs to be accessed: all, rpn, popular, chat, inbox                                  |
+| 'tabname'|[text]|	  yes	 |                                                                           | Enter the tab that needs to be accessed:                     |
 | `if`             | [bool]     | no       | true                                                        | Executes the command only if a specified condition is true   |
 | `timeout`        | [timespan  | no       | [♥timeoutcommand]| Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed |
 | `errorcall`      | [procedure]| no       |                                                             | Name of a procedure to call when the command throws an exception or when a given `timeout` expires |
@@ -24,7 +24,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens a instagram webpage in the provided browser instance and then logs into the account with provided credentials and then accesses the tab mentioned in the command::
+This simple script opens a reddit webpage in the provided browser instance and then logs into the account with provided credentials and then accesses the tab mentioned in the command::
 
 ```G1ANT
 reddit.open

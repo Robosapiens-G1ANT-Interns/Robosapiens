@@ -23,7 +23,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens  a instagram webpage in the provided browser instance:
+This simple script opens  a reddit webpage in the provided browser instance:
 
 ```G1ANT
 reddit.open

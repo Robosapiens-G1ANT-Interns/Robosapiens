@@ -1,0 +1,14 @@
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Telegram\bin\Release\G1ANT.Addon.Telegram.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Telegram\bin\Release\G1ANT.Addon.Telegram.pdb
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Telegram\bin\Release\NLog.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Telegram\bin\Release\SeleniumExtras.WaitHelpers.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Telegram\bin\Release\WebDriver.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Telegram\bin\Release\NLog.xml
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Telegram\bin\Release\WebDriver.xml
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Telegram\obj\Release\G1ANT.Addon.Telegram.csprojAssemblyReference.cache
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Telegram\obj\Release\G1ANT.Addon.Telegram.Properties.Resources.resources
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Telegram\obj\Release\G1ANT.Addon.Telegram.csproj.GenerateResource.cache
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Telegram\obj\Release\G1ANT.Addon.Telegram.csproj.CoreCompileInputs.cache
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Telegram\obj\Release\G1ANT.Addon.Telegram.csproj.CopyComplete
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Telegram\obj\Release\G1ANT.Addon.Telegram.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Telegram\obj\Release\G1ANT.Addon.Telegram.pdb

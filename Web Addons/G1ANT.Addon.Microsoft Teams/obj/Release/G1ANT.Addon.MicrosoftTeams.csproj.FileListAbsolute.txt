@@ -1,0 +1,14 @@
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Microsoft Teams\bin\Release\G1ANT.Addon.Microsoft Teams.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Microsoft Teams\bin\Release\G1ANT.Addon.Microsoft Teams.pdb
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Microsoft Teams\bin\Release\NLog.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Microsoft Teams\bin\Release\SeleniumExtras.WaitHelpers.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Microsoft Teams\bin\Release\WebDriver.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Microsoft Teams\bin\Release\NLog.xml
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Microsoft Teams\bin\Release\WebDriver.xml
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Microsoft Teams\obj\Release\G1ANT.Addon.MicrosoftTeams.csprojAssemblyReference.cache
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Microsoft Teams\obj\Release\G1ANT.Addon.Microsoft_Teams.Properties.Resources.resources
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Microsoft Teams\obj\Release\G1ANT.Addon.MicrosoftTeams.csproj.GenerateResource.cache
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Microsoft Teams\obj\Release\G1ANT.Addon.MicrosoftTeams.csproj.CoreCompileInputs.cache
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Microsoft Teams\obj\Release\G1ANT.Addon.MicrosoftTeams.csproj.CopyComplete
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Microsoft Teams\obj\Release\G1ANT.Addon.Microsoft Teams.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.Microsoft Teams\obj\Release\G1ANT.Addon.Microsoft Teams.pdb
