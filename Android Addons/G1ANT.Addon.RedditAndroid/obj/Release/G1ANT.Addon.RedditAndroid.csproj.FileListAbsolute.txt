@@ -1,0 +1,17 @@
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.RedditAndroid\obj\Release\G1ANT.Addon.RedditAndroid.csprojAssemblyReference.cache
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.RedditAndroid\obj\Release\G1ANT.Addon.RedditAndroid.csproj.CoreCompileInputs.cache
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.RedditAndroid\bin\Release\G1ANT.Addon.RedditAndroid.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.RedditAndroid\bin\Release\G1ANT.Addon.RedditAndroid.pdb
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.RedditAndroid\bin\Release\Appium.Net.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.RedditAndroid\bin\Release\Castle.Core.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.RedditAndroid\bin\Release\NLog.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.RedditAndroid\bin\Release\SeleniumExtras.PageObjects.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.RedditAndroid\bin\Release\WebDriver.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.RedditAndroid\bin\Release\WebDriver.Support.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.RedditAndroid\bin\Release\Castle.Core.xml
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.RedditAndroid\bin\Release\NLog.xml
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.RedditAndroid\bin\Release\WebDriver.xml
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.RedditAndroid\bin\Release\WebDriver.Support.xml
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.RedditAndroid\obj\Release\G1ANT.Addon.RedditAndroid.csproj.CopyComplete
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.RedditAndroid\obj\Release\G1ANT.Addon.RedditAndroid.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.RedditAndroid\obj\Release\G1ANT.Addon.RedditAndroid.pdb

@@ -1,0 +1,17 @@
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.SnapchatAndroid\bin\Release\G1ANT.Addon.SnapchatAndroid.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.SnapchatAndroid\bin\Release\G1ANT.Addon.SnapchatAndroid.pdb
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.SnapchatAndroid\bin\Release\Appium.Net.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.SnapchatAndroid\bin\Release\Castle.Core.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.SnapchatAndroid\bin\Release\NLog.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.SnapchatAndroid\bin\Release\SeleniumExtras.PageObjects.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.SnapchatAndroid\bin\Release\WebDriver.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.SnapchatAndroid\bin\Release\WebDriver.Support.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.SnapchatAndroid\bin\Release\Castle.Core.xml
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.SnapchatAndroid\bin\Release\NLog.xml
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.SnapchatAndroid\bin\Release\WebDriver.xml
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.SnapchatAndroid\bin\Release\WebDriver.Support.xml
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.SnapchatAndroid\obj\Release\G1ANT.Addon.SnapchatAndroid.csprojAssemblyReference.cache
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.SnapchatAndroid\obj\Release\G1ANT.Addon.SnapchatAndroid.csproj.CoreCompileInputs.cache
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.SnapchatAndroid\obj\Release\G1ANT.Addon.SnapchatAndroid.csproj.CopyComplete
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.SnapchatAndroid\obj\Release\G1ANT.Addon.SnapchatAndroid.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.SnapchatAndroid\obj\Release\G1ANT.Addon.SnapchatAndroid.pdb

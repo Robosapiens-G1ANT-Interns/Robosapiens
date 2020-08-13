@@ -1,0 +1,17 @@
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.ShaadiAndroid\obj\Release\G1ANT.Addon.ShaadiAndroid.csprojAssemblyReference.cache
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.ShaadiAndroid\obj\Release\G1ANT.Addon.ShaadiAndroid.csproj.CoreCompileInputs.cache
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.ShaadiAndroid\bin\Release\G1ANT.Addon.ShaadiAndroid.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.ShaadiAndroid\bin\Release\G1ANT.Addon.ShaadiAndroid.pdb
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.ShaadiAndroid\bin\Release\Appium.Net.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.ShaadiAndroid\bin\Release\Castle.Core.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.ShaadiAndroid\bin\Release\NLog.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.ShaadiAndroid\bin\Release\SeleniumExtras.PageObjects.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.ShaadiAndroid\bin\Release\WebDriver.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.ShaadiAndroid\bin\Release\WebDriver.Support.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.ShaadiAndroid\bin\Release\Castle.Core.xml
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.ShaadiAndroid\bin\Release\NLog.xml
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.ShaadiAndroid\bin\Release\WebDriver.xml
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.ShaadiAndroid\bin\Release\WebDriver.Support.xml
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.ShaadiAndroid\obj\Release\G1ANT.Addon.ShaadiAndroid.csproj.CopyComplete
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.ShaadiAndroid\obj\Release\G1ANT.Addon.ShaadiAndroid.dll
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.ShaadiAndroid\obj\Release\G1ANT.Addon.ShaadiAndroid.pdb

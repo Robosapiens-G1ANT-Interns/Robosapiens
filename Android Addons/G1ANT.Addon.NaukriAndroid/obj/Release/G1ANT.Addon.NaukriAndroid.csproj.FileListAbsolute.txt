@@ -1,0 +1,2 @@
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.NaukriAndroid\obj\Release\G1ANT.Addon.NaukriAndroid.csprojAssemblyReference.cache
+C:\Users\Pratiksha\source\repos\G1ANT.Addon.NaukriAndroid\obj\Release\G1ANT.Addon.NaukriAndroid.csproj.CoreCompileInputs.cache
