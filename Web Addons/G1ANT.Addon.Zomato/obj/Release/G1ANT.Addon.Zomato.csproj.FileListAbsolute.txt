@@ -1,0 +1,14 @@
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Zomato\bin\Release\G1ANT.Addon.Zomato.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Zomato\bin\Release\G1ANT.Addon.Zomato.pdb
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Zomato\bin\Release\NLog.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Zomato\bin\Release\SeleniumExtras.WaitHelpers.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Zomato\bin\Release\WebDriver.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Zomato\bin\Release\NLog.xml
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Zomato\bin\Release\WebDriver.xml
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Zomato\obj\Release\G1ANT.Addon.Zomato.csprojAssemblyReference.cache
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Zomato\obj\Release\G1ANT.Addon.Zomato.Properties.Resources.resources
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Zomato\obj\Release\G1ANT.Addon.Zomato.csproj.GenerateResource.cache
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Zomato\obj\Release\G1ANT.Addon.Zomato.csproj.CoreCompileInputs.cache
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Zomato\obj\Release\G1ANT.Addon.Zomato.csproj.CopyComplete
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Zomato\obj\Release\G1ANT.Addon.Zomato.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Zomato\obj\Release\G1ANT.Addon.Zomato.pdb

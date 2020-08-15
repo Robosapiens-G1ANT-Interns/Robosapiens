@@ -1,0 +1,14 @@
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Uber\bin\Release\G1ANT.Addon.Uber.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Uber\bin\Release\G1ANT.Addon.Uber.pdb
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Uber\bin\Release\NLog.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Uber\bin\Release\SeleniumExtras.WaitHelpers.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Uber\bin\Release\WebDriver.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Uber\bin\Release\NLog.xml
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Uber\bin\Release\WebDriver.xml
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Uber\obj\Release\G1ANT.Addon.Uber.csprojAssemblyReference.cache
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Uber\obj\Release\G1ANT.Addon.Uber.Properties.Resources.resources
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Uber\obj\Release\G1ANT.Addon.Uber.csproj.GenerateResource.cache
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Uber\obj\Release\G1ANT.Addon.Uber.csproj.CoreCompileInputs.cache
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Uber\obj\Release\G1ANT.Addon.Uber.csproj.CopyComplete
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Uber\obj\Release\G1ANT.Addon.Uber.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Uber\obj\Release\G1ANT.Addon.Uber.pdb

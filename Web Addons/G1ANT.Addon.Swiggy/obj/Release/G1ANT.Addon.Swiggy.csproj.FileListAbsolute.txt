@@ -1,0 +1,13 @@
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Swiggy\bin\Release\G1ANT.Addon.Swiggy.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Swiggy\bin\Release\G1ANT.Addon.Swiggy.pdb
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Swiggy\bin\Release\NLog.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Swiggy\bin\Release\SeleniumExtras.WaitHelpers.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Swiggy\bin\Release\WebDriver.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Swiggy\bin\Release\NLog.xml
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Swiggy\bin\Release\WebDriver.xml
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Swiggy\obj\Release\G1ANT.Addon.Swiggy.Properties.Resources.resources
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Swiggy\obj\Release\G1ANT.Addon.Swiggy.csproj.GenerateResource.cache
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Swiggy\obj\Release\G1ANT.Addon.Swiggy.csproj.CoreCompileInputs.cache
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Swiggy\obj\Release\G1ANT.Addon.Swiggy.csproj.CopyComplete
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Swiggy\obj\Release\G1ANT.Addon.Swiggy.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Swiggy\obj\Release\G1ANT.Addon.Swiggy.pdb

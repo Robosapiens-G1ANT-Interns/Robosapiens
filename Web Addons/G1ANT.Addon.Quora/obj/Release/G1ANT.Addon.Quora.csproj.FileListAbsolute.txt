@@ -1,0 +1,14 @@
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Quora\bin\Release\G1ANT.Addon.Quora.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Quora\bin\Release\G1ANT.Addon.Quora.pdb
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Quora\bin\Release\NLog.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Quora\bin\Release\SeleniumExtras.WaitHelpers.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Quora\bin\Release\WebDriver.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Quora\bin\Release\NLog.xml
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Quora\bin\Release\WebDriver.xml
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Quora\obj\Release\G1ANT.Addon.Quora.Properties.Resources.resources
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Quora\obj\Release\G1ANT.Addon.Quora.csproj.GenerateResource.cache
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Quora\obj\Release\G1ANT.Addon.Quora.csproj.CoreCompileInputs.cache
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Quora\obj\Release\G1ANT.Addon.Quora.csproj.CopyComplete
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Quora\obj\Release\G1ANT.Addon.Quora.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Quora\obj\Release\G1ANT.Addon.Quora.pdb
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.Quora\obj\Release\G1ANT.Addon.Quora.csprojAssemblyReference.cache
