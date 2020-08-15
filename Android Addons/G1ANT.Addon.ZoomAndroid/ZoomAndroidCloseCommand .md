@@ -1,4 +1,4 @@
-# zoomandroid.close
+#zoomandroid.close
 
 ## Syntax
 zoomandroid.close
@@ -8,7 +8,8 @@ zoomandroid.close
 ```
 
 ## Description
-This command closes the zoom application instance in the connected android device..
+
+This command closes an already opened zoom instance in the application.
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
@@ -23,7 +24,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens an zoom application instance in the connected android device, waits for 5 secs,and then closes the application..
+This simple script opens a zoom instance and after 5 seconds, closes it, in the connected android device:
 
 ```G1ANT
 zoomandroid.open

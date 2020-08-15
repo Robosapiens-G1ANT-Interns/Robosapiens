@@ -3,13 +3,14 @@
 ## Syntax
 viberandroid.open
 
+
 ```G1ANT
 viberandroid.open
 ```
 
 ## Description
 
-This command opens an viber application instance in the connected android device
+This command opens an viber application instance in the connected android device.
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
@@ -24,10 +25,10 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens an viber application instance in the connected android device.
+This simple script opens  opens a viber application in the connected android device :
 
 ```G1ANT
-viberandroid.open
+viberndroid.open
 
 
 ```

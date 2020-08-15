@@ -1,18 +1,17 @@
 # microsoftteamsandroid.meetings
 
 ## Syntax
-microsoftteamsandroid.meetings
+
 
 ```G1ANT
 microsoftteamsandroid.meetings
 ```
 
 ## Description
-
 This command opens the meetings Tab on the user's microsoft teams account.
 
-| Argument | Type | Required | Default Value                                                             | Description |
-| -------- | ---- | -------- | ------------|                                                             | -----------  |                                                                              |
+| Argument | Type | Required | Default Value | Description |
+| -------- | ---- | -------- | ------------- | ----------- |
 | `if`             | [bool]     | no       | true                                                        | Executes the command only if a specified condition is true   |
 | `timeout`        | [timespan  | no       | [♥timeoutcommand]| Specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed |
 | `errorcall`      | [procedure]| no       |                                                             | Name of a procedure to call when the command throws an exception or when a given `timeout` expires |
@@ -24,7 +23,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens an microsoft teams application instance in the connected android device and navigates to the meetings tab.
+This simple script opens an microsoft teams application instance in the connected android device and navigates to the meetings tab:
 
 ```G1ANT
 microsoftteamsandroid.open

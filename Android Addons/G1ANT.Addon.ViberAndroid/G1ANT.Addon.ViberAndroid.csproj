@@ -117,12 +117,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ViberAndroidSearchCommand .md" />
-    <None Include="ViberAndroidChatCommand .md" />
-    <None Include="ViberAndroidCallCommand .md" />
-    <None Include="ViberAndroidCloseCommand .md" />
-    <None Include="ViberAndroidOpenCommand .md" />
     <None Include="packages.config" />
+    <None Include="ViberAndroidCallCommand.md" />
+    <None Include="ViberAndroidOpenCommand .md" />
+    <None Include="ViberAndroidCloseCommand .md" />
+    <None Include="ViberAndroidSearchCommand.md" />
+    <None Include="ViberAndroidChatCommand.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

@@ -9,7 +9,8 @@ microsoftteamsandroid.close
 
 ## Description
 
-This command closes the microsoft teams application instance in the connected android device..
+This command closes an already opened microsoft teams instance in the application.
+
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
 | `if`             | [bool]     | no       | true                                                        | Executes the command only if a specified condition is true   |
@@ -23,7 +24,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens an microsoft teams application instance in the connected android device, waits for 5 secs,and then closes the application..
+This simple script opens a microsoft teams instance and after 5 seconds, closes it, in the connected android device:
 
 ```G1ANT
 microsoftteamsandroid.open

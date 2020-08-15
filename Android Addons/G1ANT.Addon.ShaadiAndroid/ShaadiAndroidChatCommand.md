@@ -1,16 +1,14 @@
-# shaadiandroid.open
+# shaadiandroid.chat
 
 ## Syntax
-shaadiandroid.open
 
 
 ```G1ANT
-shaadiandroid.open
+shaadiandroid.chat
 ```
 
 ## Description
-
-This command opens an shaadi application instance in the connected android device.
+This command opens the chat Tab on the user's shaadi account.
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
@@ -25,10 +23,12 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens  opens a shaadi application in the connected android device :
+This simple script opens an shaadi application instance in the connected android device and navigates to the chat tab:
 
 ```G1ANT
 shaadiandroid.open
+delay 5
+shaadiandroid.chat
 
 
 ```

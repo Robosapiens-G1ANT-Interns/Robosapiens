@@ -1,16 +1,14 @@
-# shaadiandroid.open
+# viberandroid.call
 
 ## Syntax
-shaadiandroid.open
 
 
 ```G1ANT
-shaadiandroid.open
+viberandroid.call
 ```
 
 ## Description
-
-This command opens an shaadi application instance in the connected android device.
+This command opens the call Tab on the user's viber account.
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
@@ -25,10 +23,12 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens  opens a shaadi application in the connected android device :
+This simple script opens an viber application instance in the connected android device and navigates to the call tab:
 
 ```G1ANT
-shaadiandroid.open
+viberandroid.open
+delay 5
+viberandroid.call
 
 
 ```

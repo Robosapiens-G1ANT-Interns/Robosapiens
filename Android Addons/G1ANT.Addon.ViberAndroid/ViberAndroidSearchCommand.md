@@ -1,16 +1,14 @@
-# shaadiandroid.open
+# viberandroid.search
 
 ## Syntax
-shaadiandroid.open
 
 
 ```G1ANT
-shaadiandroid.open
+viberandroid.search
 ```
 
 ## Description
-
-This command opens an shaadi application instance in the connected android device.
+This command opens the search Tab on the user's zoom account.
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
@@ -25,10 +23,12 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens  opens a shaadi application in the connected android device :
+This simple script opens an viber application instance in the connected android device and navigates to the search tab:
 
 ```G1ANT
-shaadiandroid.open
+viberandroid.open
+delay 5
+viberandroid.search
 
 
 ```

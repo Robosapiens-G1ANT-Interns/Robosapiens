@@ -1,7 +1,8 @@
-# microsoftteamsandroid.open
+# microsofttemsandroid.open
 
 ## Syntax
 microsoftteamsandroid.open
+
 
 ```G1ANT
 microsoftteamsandroid.open
@@ -9,7 +10,7 @@ microsoftteamsandroid.open
 
 ## Description
 
-This command opens an microsoft teams application instance in the connected android device
+This command opens an microsoft teams application instance in the connected android device.
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
@@ -24,10 +25,10 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens an microsoftteams application instance in the connected android device.
+This simple script opens  opens a microsoft teams application in the connected android device :
 
 ```G1ANT
-microsoftteamsandroid.open
+telegramandroid.open
 
 
 ```

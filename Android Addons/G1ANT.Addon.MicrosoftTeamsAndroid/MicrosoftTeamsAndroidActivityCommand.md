@@ -1,16 +1,14 @@
-# shaadiandroid.open
+# microsoftteamsandroid.activity
 
 ## Syntax
-shaadiandroid.open
 
 
 ```G1ANT
-shaadiandroid.open
+microsoftteamsandroid.activity
 ```
 
 ## Description
-
-This command opens an shaadi application instance in the connected android device.
+This command opens the activity Tab on the user's microsoft teams account.
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
@@ -25,10 +23,12 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens  opens a shaadi application in the connected android device :
+This simple script opens an microsoft teams application instance in the connected android device and navigates to the activity tab:
 
 ```G1ANT
-shaadiandroid.open
+microsoftteamsandroid.open
+delay 5
+microsoftteamsandroid.activity
 
 
 ```

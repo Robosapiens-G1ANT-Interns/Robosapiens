@@ -118,11 +118,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="ShaadiAndroidMatchesCommand.md" />
+    <None Include="ShaadiAndroidInboxCommand.md" />
     <None Include="ShaadiAndroidOpenCommand .md" />
     <None Include="ShaadiAndroidCloseCommand .md" />
-    <None Include="ShaadiAndroidChatCommand .md" />
-    <None Include="ShaadiAndroidInboxCommand .md" />
-    <None Include="ShaadiAndroidMatchesCommand .md" />
+    <None Include="ShaadiAndroidChatCommand.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

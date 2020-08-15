@@ -1,16 +1,14 @@
-# shaadiandroid.open
+# zoomandroid.new meeting
 
 ## Syntax
-shaadiandroid.open
 
 
 ```G1ANT
-shaadiandroid.open
+zoomandroid.new meeting
 ```
 
 ## Description
-
-This command opens an shaadi application instance in the connected android device.
+This command opens the new meeting Tab on the user's zoom account.
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
@@ -25,10 +23,12 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens  opens a shaadi application in the connected android device :
+This simple script opens an zoom application instance in the connected android device and navigates to the new meeting tab:
 
 ```G1ANT
-shaadiandroid.open
+zoomandroid.open
+delay 5
+zoomandroid.new meeting
 
 
 ```

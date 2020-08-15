@@ -117,12 +117,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-    <None Include="SnapchatAndroidOpenCommand .md" />
+    <None Include="SnapchatAndroidChatCommand.md" />
+    <None Include="SnapchatAndroidStoriesCommand.md" />
+    <None Include="SnapchatAndroidDiscoverCommand.md" />
     <None Include="SnapchatAndroidCloseCommand .md" />
-    <None Include="SnapchatAndroidDiscoverCommand .md" />
-    <None Include="SnapchatAndroidStoriesCommand .md" />
-    <None Include="SnapchatAndroidChatCommand .md" />
+    <None Include="SnapchatAndroidOpenCommand .md" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

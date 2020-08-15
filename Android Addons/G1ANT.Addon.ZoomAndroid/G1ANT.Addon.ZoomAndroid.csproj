@@ -118,9 +118,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="ZoomAndroidScheduleCommand .md" />
-    <None Include="ZoomAndroidNewMeetingCommand .md" />
-    <None Include="ZoomAndroidJoinCommand .md" />
+    <None Include="ZoomAndroidNewMeetingCommand.md" />
+    <None Include="ZoomAndroidJoinCommand.md" />
+    <None Include="ZoomAndroidScheduleCommand.md" />
     <None Include="ZoomAndroidCloseCommand .md" />
     <None Include="ZoomAndroidOpenCommand .md" />
   </ItemGroup>

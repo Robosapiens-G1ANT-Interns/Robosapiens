@@ -3,13 +3,14 @@
 ## Syntax
 snapchatandroid.open
 
+
 ```G1ANT
 snapchatandroid.open
 ```
 
 ## Description
 
-This command opens an snapchat application instance in the connected android device
+This command opens an snapchat application instance in the connected android device.
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
@@ -24,7 +25,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens an snapchat application instance in the connected android device.
+This simple script opens  opens a snapchat application in the connected android device :
 
 ```G1ANT
 snapchatandroid.open

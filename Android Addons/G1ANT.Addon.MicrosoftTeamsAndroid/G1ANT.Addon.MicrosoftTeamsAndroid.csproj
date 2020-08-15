@@ -117,12 +117,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="MicrosoftTeamsAndroidMeetingsCommand .md" />
-    <None Include="MicrosoftTeamsAndroidTeamsCommand .md" />
-    <None Include="MicrosoftTeamsAndroidCloseCommand .md" />
-    <None Include="MicrosoftTeamsAndroidActivityCommand .md" />
-    <None Include="MicrosoftTeamsAndroidOpenCommand .md" />
+    <None Include="MicrosoftTeamsAndroidTeamsCommand.md" />
+    <None Include="MicrosoftTeamsAndroidActivityCommand.md" />
     <None Include="packages.config" />
+    <None Include="MicrosoftTeamsAndroidOpenCommand .md" />
+    <None Include="MicrosoftTeamsAndroidCloseCommand .md" />
+    <None Include="MicrosoftTeamsAndroidMeetingsCommand .md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

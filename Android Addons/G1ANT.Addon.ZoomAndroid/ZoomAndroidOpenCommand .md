@@ -3,13 +3,14 @@
 ## Syntax
 zoomandroid.open
 
+
 ```G1ANT
 zoomandroid.open
 ```
 
 ## Description
 
-This command opens an zoom application instance in the connected android device
+This command opens an zoom application instance in the connected android device.
 
 | Argument | Type | Required | Default Value | Description |
 | -------- | ---- | -------- | ------------- | ----------- |
@@ -24,7 +25,7 @@ For more information about `if`, `timeout`, `errorcall`, `errorjump`, `errormess
 
 ## Example
 
-This simple script opens an zoom application instance in the connected android device.
+This simple script opens  opens a zoom application in the connected android device :
 
 ```G1ANT
 zoomandroid.open
