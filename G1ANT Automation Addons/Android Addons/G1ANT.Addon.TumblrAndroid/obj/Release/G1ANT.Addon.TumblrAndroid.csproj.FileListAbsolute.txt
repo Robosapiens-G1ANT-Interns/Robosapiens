@@ -1,0 +1,17 @@
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.TumblrAndroid\bin\Release\G1ANT.Addon.TumblrAndroid.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.TumblrAndroid\bin\Release\G1ANT.Addon.TumblrAndroid.pdb
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.TumblrAndroid\bin\Release\Appium.Net.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.TumblrAndroid\bin\Release\Castle.Core.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.TumblrAndroid\bin\Release\NLog.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.TumblrAndroid\bin\Release\SeleniumExtras.PageObjects.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.TumblrAndroid\bin\Release\WebDriver.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.TumblrAndroid\bin\Release\WebDriver.Support.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.TumblrAndroid\bin\Release\Castle.Core.xml
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.TumblrAndroid\bin\Release\NLog.xml
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.TumblrAndroid\bin\Release\WebDriver.xml
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.TumblrAndroid\bin\Release\WebDriver.Support.xml
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.TumblrAndroid\obj\Release\G1ANT.Addon.TumblrAndroid.csprojAssemblyReference.cache
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.TumblrAndroid\obj\Release\G1ANT.Addon.TumblrAndroid.csproj.CoreCompileInputs.cache
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.TumblrAndroid\obj\Release\G1ANT.Addon.TumblrAndroid.csproj.CopyComplete
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.TumblrAndroid\obj\Release\G1ANT.Addon.TumblrAndroid.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.TumblrAndroid\obj\Release\G1ANT.Addon.TumblrAndroid.pdb

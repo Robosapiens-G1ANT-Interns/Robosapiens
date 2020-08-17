@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G1ANT.Addon.ZomatoAndroid", "G1ANT.Addon.ZomatoAndroid.csproj", "{BE41D8CE-0B75-4DDC-9B1B-E5F2D07DA513}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE41D8CE-0B75-4DDC-9B1B-E5F2D07DA513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE41D8CE-0B75-4DDC-9B1B-E5F2D07DA513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE41D8CE-0B75-4DDC-9B1B-E5F2D07DA513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE41D8CE-0B75-4DDC-9B1B-E5F2D07DA513}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2ED4593F-CF87-4B0A-BD0E-81F70BD56A44}
+	EndGlobalSection
+EndGlobal

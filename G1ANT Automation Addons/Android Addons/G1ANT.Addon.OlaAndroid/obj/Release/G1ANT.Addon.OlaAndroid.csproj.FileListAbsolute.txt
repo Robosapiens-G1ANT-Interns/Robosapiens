@@ -1,0 +1,17 @@
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.OlaAndroid\bin\Release\G1ANT.Addon.OlaAndroid.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.OlaAndroid\bin\Release\G1ANT.Addon.OlaAndroid.pdb
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.OlaAndroid\bin\Release\Appium.Net.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.OlaAndroid\bin\Release\Castle.Core.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.OlaAndroid\bin\Release\NLog.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.OlaAndroid\bin\Release\SeleniumExtras.PageObjects.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.OlaAndroid\bin\Release\WebDriver.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.OlaAndroid\bin\Release\WebDriver.Support.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.OlaAndroid\bin\Release\Castle.Core.xml
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.OlaAndroid\bin\Release\NLog.xml
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.OlaAndroid\bin\Release\WebDriver.xml
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.OlaAndroid\bin\Release\WebDriver.Support.xml
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.OlaAndroid\obj\Release\G1ANT.Addon.OlaAndroid.csprojAssemblyReference.cache
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.OlaAndroid\obj\Release\G1ANT.Addon.OlaAndroid.csproj.CoreCompileInputs.cache
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.OlaAndroid\obj\Release\G1ANT.Addon.OlaAndroid.csproj.CopyComplete
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.OlaAndroid\obj\Release\G1ANT.Addon.OlaAndroid.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.OlaAndroid\obj\Release\G1ANT.Addon.OlaAndroid.pdb

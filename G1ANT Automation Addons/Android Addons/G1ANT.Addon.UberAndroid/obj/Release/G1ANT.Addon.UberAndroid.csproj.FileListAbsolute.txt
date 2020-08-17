@@ -1,0 +1,17 @@
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.UberAndroid\bin\Release\G1ANT.Addon.UberAndroid.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.UberAndroid\bin\Release\G1ANT.Addon.UberAndroid.pdb
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.UberAndroid\bin\Release\Appium.Net.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.UberAndroid\bin\Release\Castle.Core.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.UberAndroid\bin\Release\NLog.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.UberAndroid\bin\Release\SeleniumExtras.PageObjects.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.UberAndroid\bin\Release\WebDriver.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.UberAndroid\bin\Release\WebDriver.Support.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.UberAndroid\bin\Release\Castle.Core.xml
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.UberAndroid\bin\Release\NLog.xml
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.UberAndroid\bin\Release\WebDriver.xml
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.UberAndroid\bin\Release\WebDriver.Support.xml
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.UberAndroid\obj\Release\G1ANT.Addon.UberAndroid.csprojAssemblyReference.cache
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.UberAndroid\obj\Release\G1ANT.Addon.UberAndroid.csproj.CoreCompileInputs.cache
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.UberAndroid\obj\Release\G1ANT.Addon.UberAndroid.csproj.CopyComplete
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.UberAndroid\obj\Release\G1ANT.Addon.UberAndroid.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.UberAndroid\obj\Release\G1ANT.Addon.UberAndroid.pdb

@@ -1,0 +1,17 @@
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.QuoraAndroid\bin\Release\G1ANT.Addon.QuoraAndroid.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.QuoraAndroid\bin\Release\G1ANT.Addon.QuoraAndroid.pdb
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.QuoraAndroid\bin\Release\Appium.Net.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.QuoraAndroid\bin\Release\Castle.Core.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.QuoraAndroid\bin\Release\NLog.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.QuoraAndroid\bin\Release\SeleniumExtras.PageObjects.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.QuoraAndroid\bin\Release\WebDriver.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.QuoraAndroid\bin\Release\WebDriver.Support.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.QuoraAndroid\bin\Release\Castle.Core.xml
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.QuoraAndroid\bin\Release\NLog.xml
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.QuoraAndroid\bin\Release\WebDriver.xml
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.QuoraAndroid\bin\Release\WebDriver.Support.xml
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.QuoraAndroid\obj\Release\G1ANT.Addon.QuoraAndroid.csprojAssemblyReference.cache
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.QuoraAndroid\obj\Release\G1ANT.Addon.QuoraAndroid.csproj.CoreCompileInputs.cache
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.QuoraAndroid\obj\Release\G1ANT.Addon.QuoraAndroid.csproj.CopyComplete
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.QuoraAndroid\obj\Release\G1ANT.Addon.QuoraAndroid.dll
+C:\Users\AISHWARYA\source\repos\G1ANT.Addon.QuoraAndroid\obj\Release\G1ANT.Addon.QuoraAndroid.pdb
