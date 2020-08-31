@@ -1,0 +1,191 @@
+addon xlsx version 4.104.0.0
+addon facebook version 1.0.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+
+-opening the input file
+xlsx.open path ‴♥environment⟦USERPROFILE⟧\Documents\Internship Data\Digital Marketing Input.xlsx‴
+xlsx.countrows result ♥NumberOfUsers
+
+-creating empty lists
+list.create result ♥PlatformName
+list.create result ♥Username
+list.create result ♥LoginID
+list.create result ♥Password
+list.create result ♥SendRequest
+list.create result ♥CustomMessage
+list.create result ♥AcceptPendingRequest
+list.create result ♥CustomerQueryCheck
+list.create result ♥PromotionalContentText
+list.create result ♥PromotionalContentPhoto
+list.create result ♥PromotionalContentVideo
+list.create result ♥Advertisement
+
+-storing data in lists from input file
+for counter ♥i from 2 to ♥NumberOfUsers
+    xlsx.getvalue row ♥i colindex 1 result ♥temp
+    list.add ♥PlatformName toadd ♥temp
+end
+
+for counter ♥i from 2 to ♥NumberOfUsers
+    xlsx.getvalue row ♥i colindex 2 result ♥temp
+    list.add ♥Username toadd ♥temp
+end
+
+for counter ♥i from 2 to ♥NumberOfUsers
+    xlsx.getvalue row ♥i colindex 3 result ♥temp
+    list.add ♥LoginID toadd ♥temp
+end
+
+for counter ♥i from 2 to ♥NumberOfUsers
+    xlsx.getvalue row ♥i colindex 4 result ♥temp
+    list.add ♥Password toadd ♥temp
+end
+
+for counter ♥i from 2 to ♥NumberOfUsers
+    xlsx.getvalue row ♥i colindex 5 result ♥temp
+    list.add ♥SendRequest toadd ♥temp
+end
+
+for counter ♥i from 2 to ♥NumberOfUsers
+    xlsx.getvalue row ♥i colindex 6 result ♥temp
+    list.add ♥CustomMessage toadd ♥temp
+end
+
+for counter ♥i from 2 to ♥NumberOfUsers
+    xlsx.getvalue row ♥i colindex 7 result ♥temp
+    list.add ♥AcceptPendingRequest toadd ♥temp
+end
+
+for counter ♥i from 2 to ♥NumberOfUsers
+    xlsx.getvalue row ♥i colindex 8 result ♥temp
+    list.add ♥CustomerQueryCheck toadd ♥temp
+end
+
+for counter ♥i from 2 to ♥NumberOfUsers
+    xlsx.getvalue row ♥i colindex 9 result ♥temp
+    list.add ♥PromotionalContentText toadd ♥temp
+end
+
+for counter ♥i from 2 to ♥NumberOfUsers
+    xlsx.getvalue row ♥i colindex 10 result ♥temp
+    list.add ♥PromotionalContentPhoto toadd ♥temp
+end
+
+for counter ♥i from 2 to ♥NumberOfUsers
+    xlsx.getvalue row ♥i colindex 11 result ♥temp
+    list.add ♥PromotionalContentVideo toadd ♥temp
+end
+
+for counter ♥i from 2 to ♥NumberOfUsers
+    xlsx.getvalue row ♥i colindex 12 result ♥temp
+    list.add ♥Advertisement toadd ♥temp
+end
+xlsx.close
+
+
+-Log manager Notepad
+program Notepad
+call FacebookPlatform
+
+---kill Facebook
+procedure KillFacebook
+    ♥isFacebookOpened = true
+    while ⊂♥isFacebookOpened == true⊃
+        try errorcall NoFacebookOpened
+            window ✱Facebook✱ timeout 1000
+            keyboard ⋘alt+f4⋙
+        end try
+    end while
+end procedure
+procedure NoFacebookOpened
+    ♥isFacebookOpened = false
+end procedure
+
+-procedure for the Facebook Platform
+procedure FacebookPlatform
+    for counter ♥i from 1 to ♥NumberOfUsers-1 
+        label facebook
+        call KillFacebook
+        facebook.open chrome
+        facebook.login login ♥LoginID⟦♥i⟧ pass ♥Password⟦♥i⟧ 
+        window ✱Notepad✱
+        keyboard text ‴User ♥Username⟦♥i⟧: Login successful.‴ 
+        keyboard ⋘ENTER⋙
+        window ✱Facebook✱ style maximize
+        delay 6
+        -To send friend request to a person
+        label SendRequest
+        if ♥SendRequest⟦♥i⟧=="" 
+            else
+            facebook.sendrequest keyword ♥SendRequest⟦♥i⟧ errorjump SendRequest
+            window ✱Notepad✱
+            keyboard text ‴User ♥Username⟦♥i⟧: Friend Request Sent to ♥SendRequest⟦♥i⟧‴ 
+            keyboard ⋘ENTER⋙
+            window ✱Facebook✱ style maximize
+        end
+        -to send custom message to a friend
+        label CustomMessage
+        if ♥CustomMessage⟦♥i⟧==""
+            else
+            facebook.sendmessage contact ♥CustomMessage⟦♥i⟧ message ♥PromotionalContent⟦♥i⟧ errorjump CustomMessage
+            window ✱Notepad✱
+            keyboard text ‴User ♥Username⟦♥i⟧: Custom promotional message Sent to ♥CustomMessage⟦♥i⟧‴ 
+            keyboard ⋘ENTER⋙
+            window ✱Facebook✱ style maximize
+        end
+        -to accept pending request (enter the number of requests to be accepted as argument)
+        label AcceptPendingRequest
+        if ♥AcceptPendingRequest⟦♥i⟧==""
+            else
+            facebook.acceptpendingrequest number 5 errorjump AcceptPendingRequest
+            window ✱Notepad✱
+            keyboard text ‴User ♥Username⟦♥i⟧: 5 Pending Friend Requests Accepted.‴ 
+            keyboard ⋘ENTER⋙
+            window ✱Facebook✱ style maximize
+        end
+        -to post promotional content text with photo
+        label PromotionalContentText
+        if ♥PromotionalContentText⟦♥i⟧=="" 
+            else
+            delay 3
+            facebook.postpromotionalcontent message ♥PromotionalContentText⟦♥i⟧ photo ♥PromotionalContentPhoto⟦♥i⟧ errorjump PromotionalContentText
+            if ♥PromotionalContentPhoto⟦♥i⟧==""
+                else
+                keyboard text ♥PromotionalContentPhoto⟦♥i⟧ errorjump PromotionalContentText
+                keyboard ⋘ENTER⋙
+            end
+            window ✱Notepad✱
+            keyboard text ‴User ♥Username⟦♥i⟧: Promotional Content with Text and Photo posted.‴ 
+            keyboard ⋘ENTER⋙
+            window ✱Facebook✱ style maximize   
+            facebook.postpromotionalend errorjump PromotionalContentText
+        end
+        -to post promotional content text with video
+        if ♥PromotionalContentVideo⟦♥i⟧=="" 
+            else
+            delay 3
+            facebook.postpromotionalcontent message ♥PromotionalContentText⟦♥i⟧ video ♥PromotionalContentVideo⟦♥i⟧ errorjump PromotionalContentVideo
+            if ♥PromotionalContentVideo⟦♥i⟧==""
+                else
+                delay 2
+                keyboard text ♥PromotionalContentVideo⟦♥i⟧ errorjump PromotionalContentVideo
+                keyboard ⋘ENTER⋙
+            end   
+            window ✱Notepad✱
+            keyboard text ‴User ♥Username⟦♥i⟧: Promotional Content with Text and Video posted.‴ 
+            keyboard ⋘ENTER⋙
+            window ✱Facebook✱ style maximize
+            facebook.postpromotionalend errorjump PromotionalContentVideo
+        end
+        jump label Facebook
+    end
+end
+
+-Saving log manager
+window ✱Notepad✱
+keyboard ⋘CTRL+S⋙
+delay 2
+keyboard ‴Digital_Marketing_Log‴
+keyboard ⋘ENTER⋙
+keyboard ⋘ALT+F4⋙

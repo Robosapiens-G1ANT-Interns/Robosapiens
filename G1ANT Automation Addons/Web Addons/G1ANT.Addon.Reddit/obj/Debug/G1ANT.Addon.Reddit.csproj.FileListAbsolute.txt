@@ -1,4 +1,0 @@
-C:\Users\Pratiksha\source\repos\G1ANT.Addon.Reddit\obj\Debug\G1ANT.Addon.Reddit.csprojAssemblyReference.cache
-C:\Users\Pratiksha\source\repos\G1ANT.Addon.Reddit\obj\Debug\G1ANT.Addon.Reddit.Properties.Resources.resources
-C:\Users\Pratiksha\source\repos\G1ANT.Addon.Reddit\obj\Debug\G1ANT.Addon.Reddit.csproj.GenerateResource.cache
-C:\Users\Pratiksha\source\repos\G1ANT.Addon.Reddit\obj\Debug\G1ANT.Addon.Reddit.csproj.CoreCompileInputs.cache

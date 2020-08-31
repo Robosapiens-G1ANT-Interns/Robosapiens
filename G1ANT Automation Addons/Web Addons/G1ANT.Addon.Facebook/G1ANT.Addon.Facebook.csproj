@@ -89,11 +89,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Addon.cs" />
+    <Compile Include="FacebookAcceptPendingRequestCommand.cs" />
     <Compile Include="FacebookLoginCommand.cs" />
     <Compile Include="FacebookLogoutCommand.cs" />
     <Compile Include="FacebookOpenCommand.cs" />
     <Compile Include="FacebookPostCommand.cs" />
+    <Compile Include="FacebookPostPromotionalContent2Command.cs" />
+    <Compile Include="FacebookPostPromotionalContentCommand.cs" />
     <Compile Include="FacebookSearchCommand.cs" />
+    <Compile Include="FacebookSendMessageCommand.cs" />
+    <Compile Include="FacebookSendRequestCommand.cs" />
     <Compile Include="FacebookTabCommand.cs" />
     <Compile Include="Properties\Resources.Designer.cs" />
     <Compile Include="Variables\TimeoutSeleniumVariable.cs" />

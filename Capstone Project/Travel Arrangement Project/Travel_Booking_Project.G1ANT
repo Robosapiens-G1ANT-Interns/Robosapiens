@@ -1,0 +1,123 @@
+addon xlsx version 4.104.0.0
+addon makemytrip version 2.205.17304.1000
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+-opening the input file
+xlsx.open path ‴♥environment⟦USERPROFILE⟧\Documents\Internship Data\Travel Arrangement Input.xlsx‴
+xlsx.countrows result ♥NumberOfUsers
+
+-creating empty lists
+list.create result ♥PlatformName
+list.create result ♥Username
+list.create result ♥LoginID
+list.create result ♥Password
+list.create result ♥TravelArrangement
+list.create result ♥Start
+list.create result ♥Destination
+
+-storing data in lists from input file
+for counter ♥i from 2 to ♥NumberOfUsers
+    xlsx.getvalue row ♥i colindex 1 result ♥temp
+    list.add ♥PlatformName toadd ♥temp
+end
+
+for counter ♥i from 2 to ♥NumberOfUsers
+    xlsx.getvalue row ♥i colindex 2 result ♥temp
+    list.add ♥Username toadd ♥temp
+end
+
+for counter ♥i from 2 to ♥NumberOfUsers
+    xlsx.getvalue row ♥i colindex 3 result ♥temp
+    list.add ♥LoginID toadd ♥temp
+end
+
+for counter ♥i from 2 to ♥NumberOfUsers
+    xlsx.getvalue row ♥i colindex 4 result ♥temp
+    list.add ♥Password toadd ♥temp
+end
+
+for counter ♥i from 2 to ♥NumberOfUsers
+    xlsx.getvalue row ♥i colindex 5 result ♥temp
+    list.add ♥TravelArrangement toadd ♥temp
+end
+
+for counter ♥i from 2 to ♥NumberOfUsers
+    xlsx.getvalue row ♥i colindex 6 result ♥temp
+    list.add ♥Start toadd ♥temp
+end
+
+for counter ♥i from 2 to ♥NumberOfUsers
+    xlsx.getvalue row ♥i colindex 7 result ♥temp
+    list.add ♥Destination toadd ♥temp
+end
+xlsx.close
+
+-Calling procedures
+program notepad
+call MakeMyTripPlatform
+
+
+---kill MakeMyTrip
+procedure KillMakeMyTrip
+    ♥isMakeMyTripOpened = true
+    while ⊂♥isMakeMyTripOpened == true⊃
+        try errorcall NoMakeMyTripOpened
+            window ✱MakeMyTrip✱ timeout 1000
+            keyboard ⋘alt+f4⋙
+        end try
+    end while
+end
+procedure NoMakeMyTripOpened
+    ♥isMakeMyTripOpened = false
+end
+
+-procedure for the MakeMyTrip Platform
+procedure MakeMyTripPlatform
+    for counter ♥i from 1 to ♥NumberOfUsers-1 
+        label MakeMyTrip
+        call KillMakeMyTrip
+        mmt.login browser chrome loginid ♥LoginID⟦♥i⟧ password ♥Password⟦♥i⟧
+        window ✱Notepad✱
+        delay 1
+        keyboard text ‴User ♥Username⟦♥i⟧: Login successful.‴ 
+        keyboard ⋘ENTER⋙
+        window ✱MakeMyTrip✱ 
+        delay 6
+        -To book flight tickets
+        if ♥TravelArrangement⟦♥i⟧=="Flight"
+            label FlightBooking
+            mmt.bookflight start ♥Start⟦♥i⟧ destination ♥Destination⟦♥i⟧ errorjump FlightBooking
+            window ✱Notepad✱
+            keyboard text ‴User ♥Username⟦♥i⟧: Flight search completed from ♥Start⟦♥i⟧ to ♥Destination⟦♥i⟧.‴ 
+            keyboard ⋘ENTER⋙
+            window ✱MakeMyTrip✱ 
+        end
+        -To book hotel arrangemet
+        if ♥TravelArrangement⟦♥i⟧=="Hotel"
+            label HotelBooking
+            mmt.bookhotel hotelplace ♥Start⟦♥i⟧ errorjump HotelBooking
+            window ✱Notepad✱
+            keyboard text ‴User ♥Username⟦♥i⟧: Hotel search completed for location ♥Start⟦♥i⟧.‴ 
+            keyboard ⋘ENTER⋙
+            window ✱MakeMyTrip✱ 
+        end
+        -To book holiday package
+        if ♥TravelArrangement⟦♥i⟧=="Holiday"
+            label HolidayBooking
+            mmt.planholiday from ♥Start⟦♥i⟧ to ♥Destination⟦♥i⟧ errorjump HolidayBooking
+            window ✱Notepad✱
+            keyboard text ‴User ♥Username⟦♥i⟧: Holiday package search completed from ♥Start⟦♥i⟧ to ♥Destination⟦♥i⟧.‴ 
+            keyboard ⋘ENTER⋙
+            window ✱MakeMyTrip✱ 
+        end
+    end
+end
+
+-Saving log manager
+window ✱Notepad✱
+keyboard ⋘CTRL+S⋙
+delay 2
+keyboard ‴Travel_arrangement_Log‴
+keyboard ⋘ENTER⋙
+keyboard ⋘ALT+F4⋙            
+        
