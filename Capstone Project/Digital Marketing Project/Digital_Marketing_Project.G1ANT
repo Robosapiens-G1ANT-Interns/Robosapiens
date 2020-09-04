@@ -1,4 +1,4 @@
-addon xlsx version 4.104.0.0
+nameaddon xlsx version 4.104.0.0
 addon facebook version 1.0.0.0
 addon core version 4.107.0.0
 addon language version 4.106.1.0
@@ -84,9 +84,7 @@ end
 xlsx.close
 
 
--Log manager Notepad
-program Notepad
-call FacebookPlatform
+
 
 ---kill Facebook
 procedure KillFacebook
@@ -102,54 +100,211 @@ procedure NoFacebookOpened
     ♥isFacebookOpened = false
 end procedure
 
--procedure for the Facebook Platform
-procedure FacebookPlatform
-    for counter ♥i from 1 to ♥NumberOfUsers-1 
-        label facebook
-        call KillFacebook
-        facebook.open chrome
-        facebook.login login ♥LoginID⟦♥i⟧ pass ♥Password⟦♥i⟧ 
-        window ✱Notepad✱
-        keyboard text ‴User ♥Username⟦♥i⟧: Login successful.‴ 
-        keyboard ⋘ENTER⋙
-        window ✱Facebook✱ style maximize
+---kill excel
+procedure KillLinkedinWeb
+    ♥isLinkedinOpened = true
+    while ⊂♥isLinkedinOpened == true⊃
+        try errorcall NoLinkedinWebOpened
+            window ✱LinkedinWeb✱ timeout 1000
+            keyboard ⋘alt+f4⋙
+        end try
+    end while
+end procedure
+procedure NoLinkedinWebOpened
+    ♥isLinkedinOpened = false
+end procedure
+
+-Log manager Notepad
+program Notepad
+
+-procedure for the Different Platforms
+
+for counter ♥i from 1 to ♥NumberOfUsers-1
+    if ♥PlatformName == "Facebook"
+        call FacebookPlatform
+        procedure FacebookPlatform
+            label facebook
+            call KillFacebook
+            facebook.open chrome
+            facebook.login login ♥LoginID⟦♥i⟧ pass ♥Password⟦♥i⟧ 
+            window ✱Notepad✱
+            keyboard text ‴User ♥Username⟦♥i⟧: Login successful.‴ 
+            keyboard ⋘ENTER⋙
+            window ✱Facebook✱ style maximize
+            delay 6
+            -To send friend request to a person
+            label SendRequest
+            if ♥SendRequest⟦♥i⟧=="" 
+                else
+                facebook.sendrequest keyword ♥SendRequest⟦♥i⟧ errorjump SendRequest
+                window ✱Notepad✱
+                keyboard text ‴User ♥Username⟦♥i⟧: Friend Request Sent to ♥SendRequest⟦♥i⟧‴ 
+                keyboard ⋘ENTER⋙
+                window ✱Facebook✱ style maximize
+            end
+            -to send custom message to a friend
+            label CustomMessage
+            if ♥CustomMessage⟦♥i⟧==""
+                else
+                facebook.sendmessage contact ♥CustomMessage⟦♥i⟧ message ♥PromotionalContent⟦♥i⟧ errorjump CustomMessage
+                window ✱Notepad✱
+                keyboard text ‴User ♥Username⟦♥i⟧: Custom promotional message Sent to ♥CustomMessage⟦♥i⟧‴ 
+                keyboard ⋘ENTER⋙
+                window ✱Facebook✱ style maximize
+            end
+            -to accept pending request (enter the number of requests to be accepted as argument)
+            label AcceptPendingRequest
+            if ♥AcceptPendingRequest⟦♥i⟧==""
+                else
+                facebook.acceptpendingrequest number 5 errorjump AcceptPendingRequest
+                window ✱Notepad✱
+                keyboard text ‴User ♥Username⟦♥i⟧: 5 Pending Friend Requests Accepted.‴ 
+                keyboard ⋘ENTER⋙
+                window ✱Facebook✱ style maximize
+            end
+            -to post promotional content text with photo
+            label PromotionalContentText
+            if ♥PromotionalContentText⟦♥i⟧=="" 
+                else
+                delay 3
+                facebook.postpromotionalcontent message ♥PromotionalContentText⟦♥i⟧ photo ♥PromotionalContentPhoto⟦♥i⟧ errorjump PromotionalContentText
+                if ♥PromotionalContentPhoto⟦♥i⟧==""
+                    else
+                    keyboard text ♥PromotionalContentPhoto⟦♥i⟧ errorjump PromotionalContentText
+                    keyboard ⋘ENTER⋙
+                end
+                window ✱Notepad✱
+                keyboard text ‴User ♥Username⟦♥i⟧: Promotional Content with Text and Photo posted.‴ 
+                keyboard ⋘ENTER⋙
+                window ✱Facebook✱ style maximize   
+                facebook.postpromotionalend errorjump PromotionalContentText
+            end
+            -to post promotional content text with video
+            if ♥PromotionalContentVideo⟦♥i⟧=="" 
+                else
+                delay 3
+                facebook.postpromotionalcontent message ♥PromotionalContentText⟦♥i⟧ video ♥PromotionalContentVideo⟦♥i⟧ errorjump PromotionalContentVideo
+                if ♥PromotionalContentVideo⟦♥i⟧==""
+                    else
+                    delay 2
+                    keyboard text ♥PromotionalContentVideo⟦♥i⟧ errorjump PromotionalContentVideo
+                    keyboard ⋘ENTER⋙
+                end   
+                window ✱Notepad✱
+                keyboard text ‴User ♥Username⟦♥i⟧: Promotional Content with Text and Video posted.‴ 
+                keyboard ⋘ENTER⋙
+                window ✱Facebook✱ style maximize
+                facebook.postpromotionalend errorjump PromotionalContentVideo
+            end
+            jump label Facebook
+        end
+    end
+    if ♥PlatformName == "LinkedIn"
+        call LinkedinWebPlatform
+        procedure LinkedinWebPlatform
+            label Linkedin
+            call KillLinkedinWeb
+            linkedinweb.open chrome
+            linkedinweb.login emailid ♥LoginID⟦♥i⟧ password ♥Password⟦♥i⟧ 
+            dialog ‴User ♥Username⟦♥i⟧: Login successful.‴ 
+            keyboard ⋘ENTER⋙
+            window ✱Linkedin✱ style maximize
+            delay 6
+            -To send invitation request to a person
+            label Invite
+            if ♥SendRequest⟦♥i⟧=="" 
+                else
+                linkedinweb.invite keyword ♥SendRequest⟦♥i⟧ errorjump Invite
+                dialog ‴User ♥Username⟦♥i⟧: Friend Request Sent to ♥SendRequest⟦♥i⟧‴ 
+                keyboard ⋘ENTER⋙
+                window ✱Linkedin✱ style maximize
+            end
+            -to send custom message to a friend
+            label CustomMessage
+            if ♥CustomMessage⟦♥i⟧==""
+                else
+                linkedinweb.sendmsg contact ♥CustomMessage⟦♥i⟧ message ♥PromotionalContent⟦♥i⟧ errorjump CustomMessage
+                dialog ‴User ♥Username⟦♥i⟧: Custom promotional message Sent to ♥CustomMessage⟦♥i⟧‴ 
+                keyboard ⋘ENTER⋙
+                window ✱Linkedin✱ style maximize
+            end
+            -to accept pending request (enter the number of requests to be accepted as argument)
+            label AcceptInvitation
+            if ♥AcceptPendingRequest⟦♥i⟧==""
+                -else
+                linkedinweb.acceptinvitation number 1 errorjump AcceptInvitation
+                dialog ‴User ♥Username⟦♥i⟧: 1 Pending Friend Request/s Accepted.‴ 
+                keyboard ⋘ENTER⋙
+                window ✱Linkedin✱ style maximize
+            end
+            
+            -to post promotional content text with photo
+            label PromotionalContentText
+            if ♥PromotionalContentText⟦♥i⟧=="" 
+                else
+                delay 3
+                linkedinweb.promotionalcontent message ♥PromotionalContentText⟦♥i⟧ photo ♥PromotionalContentPhoto⟦♥i⟧ errorjump PromotionalContentText
+                if ♥PromotionalContentPhoto⟦♥i⟧==""
+                    else
+                    dialog ♥PromotionalContentPhoto⟦♥i⟧ errorjump PromotionalContentText
+                    keyboard ⋘ENTER⋙
+                end
+                dialog ‴User ♥Username⟦♥i⟧: Promotional Content with Text and Photo posted.‴ 
+                keyboard ⋘ENTER⋙
+                window ✱Linkedin✱ style maximize   
+            end
+            
+            -to post promotional content text with video
+            if ♥PromotionalContentVideo⟦♥i⟧=="" 
+                else
+                delay 3
+                linkedinweb.promotionalcontent message ♥PromotionalContentText⟦♥i⟧ video ♥PromotionalContentVideo⟦♥i⟧ errorjump PromotionalContentVideo
+                if ♥PromotionalContentVideo⟦♥i⟧==""
+                    else
+                    delay 2
+                    dialog ♥PromotionalContentVideo⟦♥i⟧ errorjump PromotionalContentVideo
+                    keyboard ⋘ENTER⋙
+                end   
+                dialog ‴User ♥Username⟦♥i⟧: Promotional Content with Text and Video posted.‴ 
+                keyboard ⋘ENTER⋙
+                window ✱Linkedin✱ style maximize
+            end
+        end
+    end
+    if ♥PlatformName == "Instagram"
+    call InstagramAndroidPlatform
+    procedure InstagramAndroidPlatform
+        instagramandroid.open chrome
+        window ✱InstagramAndroid✱ style maximize
         delay 6
-        -To send friend request to a person
+        
         label SendRequest
         if ♥SendRequest⟦♥i⟧=="" 
             else
-            facebook.sendrequest keyword ♥SendRequest⟦♥i⟧ errorjump SendRequest
+            instagramandroid.sendrequest keyword ♥SendRequest⟦♥i⟧ errorjump SendRequest
             window ✱Notepad✱
             keyboard text ‴User ♥Username⟦♥i⟧: Friend Request Sent to ♥SendRequest⟦♥i⟧‴ 
             keyboard ⋘ENTER⋙
-            window ✱Facebook✱ style maximize
+            window ✱InstagramAndroid✱ style maximize
         end
-        -to send custom message to a friend
+        
         label CustomMessage
         if ♥CustomMessage⟦♥i⟧==""
             else
-            facebook.sendmessage contact ♥CustomMessage⟦♥i⟧ message ♥PromotionalContent⟦♥i⟧ errorjump CustomMessage
+            InstagramAndroid.sendmessage contact ♥CustomMessage⟦♥i⟧ message ♥PromotionalContent⟦♥i⟧ errorjump CustomMessage
             window ✱Notepad✱
             keyboard text ‴User ♥Username⟦♥i⟧: Custom promotional message Sent to ♥CustomMessage⟦♥i⟧‴ 
             keyboard ⋘ENTER⋙
-            window ✱Facebook✱ style maximize
+            window ✱InstagramAndroid✱ style maximize
         end
-        -to accept pending request (enter the number of requests to be accepted as argument)
-        label AcceptPendingRequest
-        if ♥AcceptPendingRequest⟦♥i⟧==""
-            else
-            facebook.acceptpendingrequest number 5 errorjump AcceptPendingRequest
-            window ✱Notepad✱
-            keyboard text ‴User ♥Username⟦♥i⟧: 5 Pending Friend Requests Accepted.‴ 
-            keyboard ⋘ENTER⋙
-            window ✱Facebook✱ style maximize
-        end
-        -to post promotional content text with photo
+        
+        
+        -to post promotional content   photo
         label PromotionalContentText
         if ♥PromotionalContentText⟦♥i⟧=="" 
             else
             delay 3
-            facebook.postpromotionalcontent message ♥PromotionalContentText⟦♥i⟧ photo ♥PromotionalContentPhoto⟦♥i⟧ errorjump PromotionalContentText
+            instagramandroid.postpromotionalcontent message ♥PromotionalContentText⟦♥i⟧ photo ♥PromotionalContentPhoto⟦♥i⟧ errorjump PromotionalContentText
             if ♥PromotionalContentPhoto⟦♥i⟧==""
                 else
                 keyboard text ♥PromotionalContentPhoto⟦♥i⟧ errorjump PromotionalContentText
@@ -158,14 +313,14 @@ procedure FacebookPlatform
             window ✱Notepad✱
             keyboard text ‴User ♥Username⟦♥i⟧: Promotional Content with Text and Photo posted.‴ 
             keyboard ⋘ENTER⋙
-            window ✱Facebook✱ style maximize   
-            facebook.postpromotionalend errorjump PromotionalContentText
+            window ✱InstagramAndroid✱ style maximize   
+            instagramandroid.postpromotionalend errorjump PromotionalContentText
         end
         -to post promotional content text with video
         if ♥PromotionalContentVideo⟦♥i⟧=="" 
             else
             delay 3
-            facebook.postpromotionalcontent message ♥PromotionalContentText⟦♥i⟧ video ♥PromotionalContentVideo⟦♥i⟧ errorjump PromotionalContentVideo
+            instagramandroid.postpromotionalcontent message ♥PromotionalContentText⟦♥i⟧ video ♥PromotionalContentVideo⟦♥i⟧ errorjump PromotionalContentVideo
             if ♥PromotionalContentVideo⟦♥i⟧==""
                 else
                 delay 2
@@ -176,10 +331,9 @@ procedure FacebookPlatform
             keyboard text ‴User ♥Username⟦♥i⟧: Promotional Content with Text and Video posted.‴ 
             keyboard ⋘ENTER⋙
             window ✱Facebook✱ style maximize
-            facebook.postpromotionalend errorjump PromotionalContentVideo
+            instagramandroid.postpromotionalend errorjump PromotionalContentVideo
         end
-        jump label Facebook
-    end
+    end 
 end
 
 -Saving log manager
